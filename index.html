@@ -17,16 +17,53 @@
   </head>
 
   <body>
+  
     <header>
       <div class="inner">
 		<h1><img style="margin-top:0px" src="images/logo2.png" height="150px" alt="CEFSharp"></h1>
         <h2>A fast and full-featured web browser for WinForms and WPF Apps!</h2>
-        <a href="https://github.com/cefsharp/CefSharp/wiki/Quick-Start" class="button" id="b1"><small>Get started using the</small>Quick Start</a>
-        <a href="https://www.nuget.org/packages/CefSharp.WinForms/" class="button" id="b2"><small>Grab the NuGet</small>WinForms</a>
-        <a href="https://www.nuget.org/packages/CefSharp.WPF/" class="button" id="b3"><small>Grab the NuGet</small>WPF</a>
+		
+		
+		<ul class="threed-menu">
+		
+			<li><a href="https://github.com/cefsharp/CefSharp/wiki/Quick-Start" class="threed-item">
+				Quick Start
+				<span aria-hidden="true" class="threed-item-box">
+					<span class="threed-front">Quick Start</span>
+					<span class="threed-back">Quick Start</span>
+				</span>
+			</a></li>
+			
+			<li><a href="https://www.nuget.org/packages/CefSharp.WinForms/" class="threed-item">
+				WinForms NuGet
+				<span aria-hidden="true" class="threed-item-box">
+					<span class="threed-front">WinForms NuGet</span>
+					<span class="threed-back">WinForms NuGet</span>
+				</span>
+			</a></li>
+			
+			<li><a href="https://www.nuget.org/packages/CefSharp.WPF/" class="threed-item">
+				WPF NuGet
+				<span aria-hidden="true" class="threed-item-box">
+					<span class="threed-front">WPF NuGet</span>
+					<span class="threed-back">WPF NuGet</span>
+				</span>
+			</a></li>
+			
+			<li><a href="https://github.com/cefsharp/CefSharp/wiki/" class="threed-item">
+				Wiki
+				<span aria-hidden="true" class="threed-item-box">
+					<span class="threed-front">Wiki</span>
+					<span class="threed-back">Wiki</span>
+				</span>
+			</a></li>
+			
+		</ul>
       </div>
     </header>
 	
+
+
 	<div id="main">
 	<div id="main-content">
             
@@ -88,7 +125,7 @@
     <div class="featlist-text">
         <div class="featlist-title">Free and Open Source</div>
         <div class="featlist-desc">
-            CefSharp is a .NET wrapper around the fantastic <a href="https://bitbucket.org/chromiumembedded/cef">Chromium Embedded Framework</a> project. And we provide <a href="https://github.com/cefsharp/CefSharp">full source code</a> in C# and C++/CLI. You can use the code to hack, improve, fork or simply debug your applications better. If CefSharp helped you, consider making a <a href="http://www.magpcss.org/ceforum/donate.php">donation to the CEF project</a>.
+            CefSharp is a .NET wrapper around the fantastic <a href="https://bitbucket.org/chromiumembedded/cef">Chromium Embedded Framework</a> project. And we provide <a href="https://github.com/cefsharp/CefSharp">full source code</a> in C# and C++/CLI. You can use the code to hack, improve, fork or simply debug your applications better. CefSharp is <a href="https://opensource.org/licenses/BSD-3-Clause">BSD licensed</a>, which means that it can be used for proprietary and free/open source applications. If CefSharp helped you, consider making a <a href="http://www.magpcss.org/ceforum/donate.php">donation to the CEF project</a>.
         </div>
         <div class="featlist-code">
         </div>
@@ -99,26 +136,51 @@
 
 <div class="featlist">
     <div class="featlist-text">
-        <div class="featlist-title">Extensive Documentation</div>
+        <div class="featlist-title">Multiple Flavors</div>
         <div class="featlist-desc">
-            A few technical details:
+            CefSharp is available in every imaginable <b>flavor</b>:
+			<ul>
+			<li><a href="https://www.nuget.org/packages/CefSharp.WinForms/">CefSharp.WinForms</a> provides browser UI Controls for Windows Forms applications</li>
+			<li><a href="https://www.nuget.org/packages/CefSharp.WPF/">CefSharp.WPF</a> provides browser UI Controls for WPF or Silverlight applications</li>
+			<li><a href="https://www.nuget.org/packages/CefSharp.OffScreen/">CefSharp.OffScreen</a> provides a "headless" browser control for automation projects</li>
+			<li>CefSharp supports rendering of embedded HTML content for HTML-based UI</li>
+			<li>CefSharp supports both x86 and x64, via specialized builds for each platform</li>
+			</ul>
+            CefSharp has a few <b>dependencies</b>:
 			<ul>
 			<li>CefSharp requires your project to use .NET 4.0, the <a href="https://github.com/cefsharp/CefSharp/tree/master/CefSharp.Example">Examples</a> require .NET 4.5.</li>
 			<li>Releases v45 and newer require <a href="https://www.microsoft.com/en-in/download/details.aspx?id=40784">Visual C++ Runtime 2013</a> on every machine.</li>
 			<li>Releases older than v45 require <a href="https://www.microsoft.com/en-in/download/details.aspx?id=30679">Visual C++ Runtime 2012</a> on every machine.</li>
 			<li>NuGet packages are available for <a href="https://www.nuget.org/packages/CefSharp.WinForms/">WinForms</a>, <a href="https://www.nuget.org/packages/CefSharp.WPF/" >WPF</a> and <a href="https://www.nuget.org/packages/CefSharp.OffScreen/">OffScreen</a> use cases.</li>
 			</ul>
-            Some important online resources:
+        </div>
+        <div class="featlist-code">
+        </div>
+    </div>
+    <div class="featlist-img"><img style="margin-top:30px" src="images/diagram7.png"></div>
+</div>
+<div class="horizontal-space-small"></div>
+
+<div class="featlist">
+    <div class="featlist-text">
+        <div class="featlist-title">Documented and Supported</div>
+        <div class="featlist-desc">
+            Start with these online resources:
 			<ul>
 			<li><a href="https://github.com/cefsharp/CefSharp/wiki/Quick-Start">Quick Start</a> which helps you integrate CefSharp into your WinForms/WPF project</li>
 			<li><a href="https://github.com/cefsharp/CefSharp/wiki/Frequently-asked-questions">FAQ</a> / <a href="https://github.com/cefsharp/CefSharp/wiki/Trouble-Shooting">Troubleshooting</a> for common how-to's and help with common issues</li>
-			<li><a href="https://github.com/cefsharp/CefSharp/wiki">Wiki</a> with a collection of misc. help files</li>
+			<li><a href="https://github.com/cefsharp/CefSharp/wiki">Wiki</a> with a collection of help files for new users, existing users and contributors</li>
+			</ul>
+            Access these forums if you need help :
+			<ul>
+			<li><a href="http://stackoverflow.com/tags/cefsharp/">StackOverflow Tag</a> to browse or answer questions relating to CefSharp</li>
+			<li><a href="https://github.com/cefsharp/CefSharp/issues">Github Issues</a> to submit a bug report or feature request</li>
 			</ul>
         </div>
         <div class="featlist-code">
         </div>
     </div>
-    <div class="featlist-img"><img style="margin-top:30px" src="images/logo.png"></div>
+    <div class="featlist-img"><img style="margin-top:30px" src="images/diagram6.png"></div>
 </div>
 <div class="horizontal-space-small"></div>
 
@@ -127,6 +189,16 @@
       </div>
     </div>
 
+	
+    <footer>
+		<div class="footer">
+		<div class="footerin">
+        <a href="https://github.com/cefsharp/CefSharp/wiki/Quick-Start" class="button" id="b1"><small>Get started using the</small>Quick Start</a>
+        <a href="https://www.nuget.org/packages/CefSharp.WinForms/" class="button" id="b2"><small>Grab the NuGet</small>WinForms</a>
+        <a href="https://www.nuget.org/packages/CefSharp.WPF/" class="button" id="b3"><small>Grab the NuGet</small>WPF</a>
+		</div>
+		</div>
+    </footer>
   
   </body>
 </html>

@@ -1,25 +1,112 @@
 
+/*  3D MENU  */
+
+/* basic menu styles */
+.threed-menu {
+	display: block;
+	position: absolute;
+    top: 40px;
+    left: 300px;
+}
+.threed-menu li {
+	display: inline-block;
+}
+
+.threed-menu li a {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	font-family: "Ubuntu", sans-serif;
+	font-smoothing: antialiased;
+	text-transform: uppercase;
+	overflow: visible;
+	line-height: 20px;
+	font-size: 20px;
+	padding: 15px 10px;
+	margin-right: 5px;
+}
+
+/* animation domination */
+.threed-item {
+	perspective: 200px;
+	transition: all .07s linear;
+	position: relative;
+	cursor: pointer;
+}
+	/* complete the animation! */
+	.threed-item:hover .threed-item-box, 
+	.threed-item:focus .threed-item-box {
+		transform: translateZ(-25px) rotateX(90deg);
+	}
+
+.threed-item-box {
+	transition: all .3s ease-out;
+	transform: translatez(-25px);
+	transform-style: preserve-3d;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.threed-front, .threed-back {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 15px 10px;
+	pointer-events: none;
+	box-sizing: border-box;
+}
+.threed-front {
+	transform: rotatex(0deg) translatez(25px);
+	color: white;
+	background: #0D4A8C;
+}
+
+.threed-back {
+	transform: rotatex(-90deg) translatez(25px);
+	color: #0D4A8C;
+	background: white;
+}
+
+
 
 /*  DOWNLOAD BUTTON  */
 
-a.button small {
-  display: block;
-  font-size: 11px;
+.footer {
+    float: left;
+    clear: both;
+    width: 100%;
+	height: 120px;
 }
-header a.button {
-  position: absolute;
-  top: 30px;
+.footerin {
+    width: 670px;
+    margin: auto;
+}
+a.button {
+	float: left;
+	margin-right: 20px;
+}
+a.button small {
+	display: block;
+	font-size: 11px;
+}
+a.button:hover {
+  color: #9AF5FF;
 }
 #b1 {
-  right: 410px;
   background: transparent url(../images/guide-button.png) 0 0 no-repeat;
 }
 #b2 {
-  right: 205px;
   background: transparent url(../images/nuget-button.png) 0 0 no-repeat;
 }
 #b3 {
-  right: 0;
   background: transparent url(../images/nuget-button2.png) 0 0 no-repeat;
 }
 
@@ -28,22 +115,22 @@ header a.button {
 /*  FEATURE LIST  */
 
 #main {
-float: left;
-clear: both;
-width: 100%;
-margin-top: 60px;
+	float: left;
+	clear: both;
+	width: 100%;
+	/*margin-top: 60px;*/
 }
 #main-content {
-width: 900px;
-background-color: #f7f7f7;
-margin: auto;
+	width: 900px;
+	margin: auto;
 }
 
 .horizontal-space-small {
     float: left;
     clear: both;
     width: 100%;
-    height: 48px;
+    height: 20px;
+	/*background-color: #fafafa;*/
 }
 .featlist {
 	color: #474747;
@@ -545,7 +632,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #666;
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  background: #2e7bcf;
 }
 
 p {
@@ -563,8 +650,6 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
 }
 
 header h1 {
@@ -803,21 +888,7 @@ dl dd {
   font-weight: 100;
 }
 
-footer {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin-top: 40px;
-  font-size: 13px;
-  color: #aaa;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
-}
 
-footer a {
-  color: #666;
-}
-footer a:hover {
-  color: #444;
-}
 
 /* MISC */
 .clearfix:after {
