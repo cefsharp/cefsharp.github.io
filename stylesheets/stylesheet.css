@@ -1,4 +1,19 @@
 
+
+/*  EARTH HEADER  */
+
+#top-header {
+	width: 2000px;
+	height:1500px;
+	margin:auto;
+	background: transparent url(../images/top-header.png);
+	position:relative;
+	top:-210px;
+	z-index:-1;
+}
+
+
+
 /*  3D MENU  */
 
 /* basic menu styles */
@@ -65,14 +80,18 @@
 }
 .threed-front {
 	transform: rotatex(0deg) translatez(25px);
+	
 	color: white;
-	background: #0D4A8C;
+	background: #0E4D92;
+	
 }
 
 .threed-back {
 	transform: rotatex(-90deg) translatez(25px);
-	color: #0D4A8C;
+	
+	color: #2e7bcf;
 	background: white;
+	
 }
 
 
@@ -632,7 +651,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #666;
-  background: #2e7bcf;
+  /*background: #2e7bcf;*/
+  background: #B6CBE2;
 }
 
 p {
@@ -648,7 +668,6 @@ a:hover {
 
 header {
   padding-top: 40px;
-  padding-bottom: 40px;
   font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
