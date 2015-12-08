@@ -38,6 +38,11 @@
 	font-size: 20px;
 	padding: 15px 10px;
 	margin-right: 5px;
+	
+	/* glow */
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(14,77,146,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(14,77,146,1);
+	box-shadow: 0px 0px 10px 0px rgba(14,77,146,1);
 }
 
 /* animation domination */
@@ -80,16 +85,16 @@
 .threed-front {
 	transform: rotatex(0deg) translatez(25px);
 	
-	color: white;
-	background: #0E4D92;
+	color: #0E4D92;
+	background: white;
 	
 }
 
 .threed-back {
 	transform: rotatex(-90deg) translatez(25px);
 	
-	color: #0E4D92;
-	background: white;
+	color: white;
+	background: #0E4D92;
 	
 }
 
