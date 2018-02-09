@@ -28,13 +28,13 @@
   <HelpKINode Title="Address property">
     <HelpKINode Title="AddressChangedEventArgs.Address Property " Url="html/P_CefSharp_AddressChangedEventArgs_Address.htm" />
     <HelpKINode Title="ChromiumWebBrowser.Address Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_Address.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.Address Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_Address.htm" />
     <HelpKINode Title="ChromiumWebBrowser.Address Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_Address.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.Address Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_Address.htm" />
     <HelpKINode Title="IWebBrowser.Address Property " Url="html/P_CefSharp_IWebBrowser_Address.htm" />
   </HelpKINode>
   <HelpKINode Title="AddressChanged event">
-    <HelpKINode Title="ChromiumWebBrowser.AddressChanged Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_AddressChanged.htm" />
     <HelpKINode Title="ChromiumWebBrowser.AddressChanged Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_AddressChanged.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.AddressChanged Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_AddressChanged.htm" />
     <HelpKINode Title="IWinFormsWebBrowser.AddressChanged Event" Url="html/E_CefSharp_WinForms_IWinFormsWebBrowser_AddressChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="AddressChangedEventArgs class">
@@ -188,8 +188,8 @@
   <HelpKINode Title="BitmapFactory class">
     <HelpKINode Title="BitmapFactory Class" Url="html/T_CefSharp_Wpf_Rendering_BitmapFactory.htm" />
     <HelpKINode Title="BitmapFactory Class" Url="html/T_CefSharp_OffScreen_BitmapFactory.htm" />
-    <HelpKINode Title="about BitmapFactory class" Url="html/T_CefSharp_OffScreen_BitmapFactory.htm" />
     <HelpKINode Title="about BitmapFactory class" Url="html/T_CefSharp_Wpf_Rendering_BitmapFactory.htm" />
+    <HelpKINode Title="about BitmapFactory class" Url="html/T_CefSharp_OffScreen_BitmapFactory.htm" />
     <HelpKINode Title="constructor" Url="html/M_CefSharp_OffScreen_BitmapFactory__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_CefSharp_Wpf_Rendering_BitmapFactory__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_CefSharp_Wpf_Rendering_BitmapFactory.htm" />
@@ -197,8 +197,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_CefSharp_OffScreen_BitmapFactory.htm" />
   </HelpKINode>
   <HelpKINode Title="BitmapFactory property">
-    <HelpKINode Title="ChromiumWebBrowser.BitmapFactory Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_BitmapFactory.htm" />
     <HelpKINode Title="ChromiumWebBrowser.BitmapFactory Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_BitmapFactory.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.BitmapFactory Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_BitmapFactory.htm" />
   </HelpKINode>
   <HelpKINode Title="BitmapFactory.BitmapFactory constructor">
     <HelpKINode Title="BitmapFactory Constructor " Url="html/M_CefSharp_OffScreen_BitmapFactory__ctor.htm" />
@@ -240,8 +240,8 @@
   </HelpKINode>
   <HelpKINode Title="BrowserSettings property">
     <HelpKINode Title="ChromiumWebBrowser.BrowserSettings Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_BrowserSettings.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.BrowserSettings Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_BrowserSettings.htm" />
     <HelpKINode Title="ChromiumWebBrowser.BrowserSettings Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_BrowserSettings.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.BrowserSettings Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_BrowserSettings.htm" />
   </HelpKINode>
   <HelpKINode Title="BrowserSettings.AcceptLanguageList property" Url="html/P_CefSharp_BrowserSettings_AcceptLanguageList.htm" />
   <HelpKINode Title="BrowserSettings.ApplicationCache property" Url="html/P_CefSharp_BrowserSettings_ApplicationCache.htm" />
@@ -333,15 +333,15 @@
   <HelpKINode Title="CanDelete enumeration member" Url="html/T_CefSharp_ContextMenuEditState.htm" />
   <HelpKINode Title="CanExecute property" Url="html/P_CefSharp_IJavascriptCallback_CanExecute.htm" />
   <HelpKINode Title="CanExecuteJavascriptInMainFrame property">
-    <HelpKINode Title="ChromiumWebBrowser.CanExecuteJavascriptInMainFrame Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CanExecuteJavascriptInMainFrame.htm" />
     <HelpKINode Title="ChromiumWebBrowser.CanExecuteJavascriptInMainFrame Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_CanExecuteJavascriptInMainFrame.htm" />
     <HelpKINode Title="ChromiumWebBrowser.CanExecuteJavascriptInMainFrame Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_CanExecuteJavascriptInMainFrame.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.CanExecuteJavascriptInMainFrame Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CanExecuteJavascriptInMainFrame.htm" />
     <HelpKINode Title="IWebBrowser.CanExecuteJavascriptInMainFrame Property " Url="html/P_CefSharp_IWebBrowser_CanExecuteJavascriptInMainFrame.htm" />
   </HelpKINode>
   <HelpKINode Title="CanGetCookie method" Url="html/M_CefSharp_IResourceHandler_CanGetCookie.htm" />
   <HelpKINode Title="CanGoBack property">
-    <HelpKINode Title="ChromiumWebBrowser.CanGoBack Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CanGoBack.htm" />
     <HelpKINode Title="ChromiumWebBrowser.CanGoBack Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_CanGoBack.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.CanGoBack Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CanGoBack.htm" />
     <HelpKINode Title="ChromiumWebBrowser.CanGoBack Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_CanGoBack.htm" />
     <HelpKINode Title="IBrowser.CanGoBack Property " Url="html/P_CefSharp_IBrowser_CanGoBack.htm" />
     <HelpKINode Title="IWebBrowser.CanGoBack Property " Url="html/P_CefSharp_IWebBrowser_CanGoBack.htm" />
@@ -350,8 +350,8 @@
   <HelpKINode Title="CanGoBackProperty field" Url="html/F_CefSharp_Wpf_ChromiumWebBrowser_CanGoBackProperty.htm" />
   <HelpKINode Title="CanGoForward property">
     <HelpKINode Title="ChromiumWebBrowser.CanGoForward Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_CanGoForward.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.CanGoForward Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_CanGoForward.htm" />
     <HelpKINode Title="ChromiumWebBrowser.CanGoForward Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CanGoForward.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.CanGoForward Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_CanGoForward.htm" />
     <HelpKINode Title="IBrowser.CanGoForward Property " Url="html/P_CefSharp_IBrowser_CanGoForward.htm" />
     <HelpKINode Title="IWebBrowser.CanGoForward Property " Url="html/P_CefSharp_IWebBrowser_CanGoForward.htm" />
     <HelpKINode Title="LoadingStateChangedEventArgs.CanGoForward Property " Url="html/P_CefSharp_LoadingStateChangedEventArgs_CanGoForward.htm" />
@@ -781,88 +781,88 @@
   <HelpKINode Title="ChainEnd enumeration member" Url="html/T_CefSharp_TransitionType.htm" />
   <HelpKINode Title="ChainStart enumeration member" Url="html/T_CefSharp_TransitionType.htm" />
   <HelpKINode Title="ChannelIdImportFailed enumeration member" Url="html/T_CefSharp_CefErrorCode.htm" />
+  <HelpKINode Title="CHAR enumeration member" Url="html/T_CefSharp_Wpf_WM.htm" />
   <HelpKINode Title="Char enumeration member">
     <HelpKINode Title="KeyEventType Enumeration" Url="html/T_CefSharp_KeyEventType.htm" />
     <HelpKINode Title="KeyType Enumeration" Url="html/T_CefSharp_KeyType.htm" />
   </HelpKINode>
-  <HelpKINode Title="CHAR enumeration member" Url="html/T_CefSharp_Wpf_WM.htm" />
   <HelpKINode Title="Check enumeration member" Url="html/T_CefSharp_MenuItemType.htm" />
   <HelpKINode Title="CheckDependencies method" Url="html/M_CefSharp_DependencyChecker_CheckDependencies.htm" />
   <HelpKINode Title="ChromiumVersion property" Url="html/P_CefSharp_Cef_ChromiumVersion.htm" />
   <HelpKINode Title="ChromiumWebBrowser class">
     <HelpKINode Title="ChromiumWebBrowser Class" Url="html/T_CefSharp_OffScreen_ChromiumWebBrowser.htm" />
-    <HelpKINode Title="ChromiumWebBrowser Class" Url="html/T_CefSharp_WinForms_ChromiumWebBrowser.htm" />
     <HelpKINode Title="ChromiumWebBrowser Class" Url="html/T_CefSharp_Wpf_ChromiumWebBrowser.htm" />
+    <HelpKINode Title="ChromiumWebBrowser Class" Url="html/T_CefSharp_WinForms_ChromiumWebBrowser.htm" />
     <HelpKINode Title="about ChromiumWebBrowser class" Url="html/T_CefSharp_Wpf_ChromiumWebBrowser.htm" />
-    <HelpKINode Title="about ChromiumWebBrowser class" Url="html/T_CefSharp_OffScreen_ChromiumWebBrowser.htm" />
     <HelpKINode Title="about ChromiumWebBrowser class" Url="html/T_CefSharp_WinForms_ChromiumWebBrowser.htm" />
-    <HelpKINode Title="constructor" Url="html/M_CefSharp_Wpf_ChromiumWebBrowser__ctor.htm" />
+    <HelpKINode Title="about ChromiumWebBrowser class" Url="html/T_CefSharp_OffScreen_ChromiumWebBrowser.htm" />
     <HelpKINode Title="constructor" Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_CefSharp_Wpf_ChromiumWebBrowser__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_CefSharp_WinForms_ChromiumWebBrowser__ctor.htm" />
     <HelpKINode Title="events" Url="html/Events_T_CefSharp_WinForms_ChromiumWebBrowser.htm" />
     <HelpKINode Title="events" Url="html/Events_T_CefSharp_OffScreen_ChromiumWebBrowser.htm" />
     <HelpKINode Title="events" Url="html/Events_T_CefSharp_Wpf_ChromiumWebBrowser.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_CefSharp_OffScreen_ChromiumWebBrowser.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_CefSharp_Wpf_ChromiumWebBrowser.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CefSharp_Wpf_ChromiumWebBrowser.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_CefSharp_WinForms_ChromiumWebBrowser.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_CefSharp_OffScreen_ChromiumWebBrowser.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CefSharp_WinForms_ChromiumWebBrowser.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_CefSharp_Wpf_ChromiumWebBrowser.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_CefSharp_OffScreen_ChromiumWebBrowser.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_CefSharp_Wpf_ChromiumWebBrowser.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_CefSharp_WinForms_ChromiumWebBrowser.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_CefSharp_Wpf_ChromiumWebBrowser.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.Address property">
-    <HelpKINode Title="ChromiumWebBrowser.Address Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_Address.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.Address Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_Address.htm" />
     <HelpKINode Title="ChromiumWebBrowser.Address Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_Address.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.Address Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_Address.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.Address Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_Address.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.AddressChanged event">
-    <HelpKINode Title="ChromiumWebBrowser.AddressChanged Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_AddressChanged.htm" />
     <HelpKINode Title="ChromiumWebBrowser.AddressChanged Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_AddressChanged.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.AddressChanged Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_AddressChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.AddressProperty field" Url="html/F_CefSharp_Wpf_ChromiumWebBrowser_AddressProperty.htm" />
   <HelpKINode Title="ChromiumWebBrowser.BackCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_BackCommand.htm" />
   <HelpKINode Title="ChromiumWebBrowser.Bitmap property" Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_Bitmap.htm" />
   <HelpKINode Title="ChromiumWebBrowser.BitmapFactory property">
-    <HelpKINode Title="ChromiumWebBrowser.BitmapFactory Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_BitmapFactory.htm" />
     <HelpKINode Title="ChromiumWebBrowser.BitmapFactory Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_BitmapFactory.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.BitmapFactory Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_BitmapFactory.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.BitmapLock field" Url="html/F_CefSharp_OffScreen_ChromiumWebBrowser_BitmapLock.htm" />
   <HelpKINode Title="ChromiumWebBrowser.BrowserInitialized event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_BrowserInitialized.htm" />
   <HelpKINode Title="ChromiumWebBrowser.BrowserSettings property">
-    <HelpKINode Title="ChromiumWebBrowser.BrowserSettings Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_BrowserSettings.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.BrowserSettings Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_BrowserSettings.htm" />
     <HelpKINode Title="ChromiumWebBrowser.BrowserSettings Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_BrowserSettings.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.BrowserSettings Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_BrowserSettings.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.BrowserSettings Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_BrowserSettings.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.CanExecuteJavascriptInMainFrame property">
-    <HelpKINode Title="ChromiumWebBrowser.CanExecuteJavascriptInMainFrame Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_CanExecuteJavascriptInMainFrame.htm" />
     <HelpKINode Title="ChromiumWebBrowser.CanExecuteJavascriptInMainFrame Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_CanExecuteJavascriptInMainFrame.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.CanExecuteJavascriptInMainFrame Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_CanExecuteJavascriptInMainFrame.htm" />
     <HelpKINode Title="ChromiumWebBrowser.CanExecuteJavascriptInMainFrame Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CanExecuteJavascriptInMainFrame.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.CanGoBack property">
     <HelpKINode Title="ChromiumWebBrowser.CanGoBack Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_CanGoBack.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.CanGoBack Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CanGoBack.htm" />
     <HelpKINode Title="ChromiumWebBrowser.CanGoBack Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_CanGoBack.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.CanGoBack Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CanGoBack.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.CanGoBackProperty field" Url="html/F_CefSharp_Wpf_ChromiumWebBrowser_CanGoBackProperty.htm" />
   <HelpKINode Title="ChromiumWebBrowser.CanGoForward property">
     <HelpKINode Title="ChromiumWebBrowser.CanGoForward Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CanGoForward.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.CanGoForward Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_CanGoForward.htm" />
     <HelpKINode Title="ChromiumWebBrowser.CanGoForward Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_CanGoForward.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.CanGoForward Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_CanGoForward.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.CanGoForwardProperty field" Url="html/F_CefSharp_Wpf_ChromiumWebBrowser_CanGoForwardProperty.htm" />
   <HelpKINode Title="ChromiumWebBrowser.ChromiumWebBrowser constructor">
-    <HelpKINode Title="ChromiumWebBrowser Constructor " Url="html/Overload_CefSharp_WinForms_ChromiumWebBrowser__ctor.htm" />
     <HelpKINode Title="ChromiumWebBrowser Constructor " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser__ctor.htm" />
     <HelpKINode Title="ChromiumWebBrowser Constructor " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser__ctor.htm" />
+    <HelpKINode Title="ChromiumWebBrowser Constructor " Url="html/Overload_CefSharp_WinForms_ChromiumWebBrowser__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.CleanupCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CleanupCommand.htm" />
   <HelpKINode Title="ChromiumWebBrowser.CleanupElement property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CleanupElement.htm" />
   <HelpKINode Title="ChromiumWebBrowser.CleanupElementProperty field" Url="html/F_CefSharp_Wpf_ChromiumWebBrowser_CleanupElementProperty.htm" />
   <HelpKINode Title="ChromiumWebBrowser.ConsoleMessage event">
-    <HelpKINode Title="ChromiumWebBrowser.ConsoleMessage Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_ConsoleMessage.htm" />
     <HelpKINode Title="ChromiumWebBrowser.ConsoleMessage Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_ConsoleMessage.htm" />
     <HelpKINode Title="ChromiumWebBrowser.ConsoleMessage Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_ConsoleMessage.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.ConsoleMessage Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_ConsoleMessage.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.CopyCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CopyCommand.htm" />
   <HelpKINode Title="ChromiumWebBrowser.CreateBitmapInfo method" Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_CreateBitmapInfo.htm" />
@@ -871,18 +871,18 @@
   <HelpKINode Title="ChromiumWebBrowser.CutCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_CutCommand.htm" />
   <HelpKINode Title="ChromiumWebBrowser.DialogHandler property">
     <HelpKINode Title="ChromiumWebBrowser.DialogHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DialogHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.DialogHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_DialogHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DialogHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_DialogHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.DialogHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_DialogHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.DisplayHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.DisplayHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_DisplayHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DisplayHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DisplayHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DisplayHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_DisplayHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.DisplayHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_DisplayHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.Dispose method">
+    <HelpKINode Title="ChromiumWebBrowser.Dispose Method " Url="html/Overload_CefSharp_WinForms_ChromiumWebBrowser_Dispose.htm" />
     <HelpKINode Title="ChromiumWebBrowser.Dispose Method " Url="html/Overload_CefSharp_OffScreen_ChromiumWebBrowser_Dispose.htm" />
     <HelpKINode Title="ChromiumWebBrowser.Dispose Method " Url="html/Overload_CefSharp_Wpf_ChromiumWebBrowser_Dispose.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.Dispose Method " Url="html/Overload_CefSharp_WinForms_ChromiumWebBrowser_Dispose.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.DownloadHandler property">
     <HelpKINode Title="ChromiumWebBrowser.DownloadHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DownloadHandler.htm" />
@@ -891,9 +891,9 @@
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.DpiScaleFactor property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DpiScaleFactor.htm" />
   <HelpKINode Title="ChromiumWebBrowser.DragHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.DragHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DragHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DragHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_DragHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DragHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_DragHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.DragHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DragHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.Finalize method">
     <HelpKINode Title="ChromiumWebBrowser.Finalize Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_Finalize.htm" />
@@ -906,34 +906,34 @@
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.Focused property" Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_Focused.htm" />
   <HelpKINode Title="ChromiumWebBrowser.FocusHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.FocusHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_FocusHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FocusHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_FocusHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FocusHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_FocusHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.FocusHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_FocusHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.ForwardCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_ForwardCommand.htm" />
   <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd event">
-    <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_FrameLoadEnd.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_FrameLoadEnd.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_FrameLoadEnd.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_FrameLoadEnd.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_FrameLoadEnd.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.FrameLoadStart event">
     <HelpKINode Title="ChromiumWebBrowser.FrameLoadStart Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_FrameLoadStart.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.FrameLoadStart Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_FrameLoadStart.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FrameLoadStart Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_FrameLoadStart.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.FrameLoadStart Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_FrameLoadStart.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.GeolocationHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.GeolocationHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_GeolocationHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.GeolocationHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_GeolocationHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.GeolocationHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_GeolocationHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.GeolocationHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_GeolocationHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.GetBrowser method">
     <HelpKINode Title="ChromiumWebBrowser.GetBrowser Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_GetBrowser.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.GetBrowser Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_GetBrowser.htm" />
     <HelpKINode Title="ChromiumWebBrowser.GetBrowser Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_GetBrowser.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.GetBrowser Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_GetBrowser.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.GetScreenInfo method">
-    <HelpKINode Title="ChromiumWebBrowser.GetScreenInfo Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_GetScreenInfo.htm" />
     <HelpKINode Title="ChromiumWebBrowser.GetScreenInfo Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_GetScreenInfo.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.GetScreenInfo Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_GetScreenInfo.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.GetScreenPoint method" Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_GetScreenPoint.htm" />
   <HelpKINode Title="ChromiumWebBrowser.GetViewRect method">
@@ -944,8 +944,8 @@
   <HelpKINode Title="ChromiumWebBrowser.IsActivating property" Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_IsActivating.htm" />
   <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitialized property">
     <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitialized Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_IsBrowserInitialized.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitialized Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_IsBrowserInitialized.htm" />
     <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitialized Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_IsBrowserInitialized.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitialized Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_IsBrowserInitialized.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitializedChanged event">
     <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitializedChanged Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_IsBrowserInitializedChanged.htm" />
@@ -955,55 +955,55 @@
   <HelpKINode Title="ChromiumWebBrowser.IsDisposed property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_IsDisposed.htm" />
   <HelpKINode Title="ChromiumWebBrowser.IsInputKey method" Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_IsInputKey.htm" />
   <HelpKINode Title="ChromiumWebBrowser.IsLoading property">
-    <HelpKINode Title="ChromiumWebBrowser.IsLoading Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_IsLoading.htm" />
     <HelpKINode Title="ChromiumWebBrowser.IsLoading Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_IsLoading.htm" />
     <HelpKINode Title="ChromiumWebBrowser.IsLoading Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_IsLoading.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.IsLoading Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_IsLoading.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.IsLoadingProperty field" Url="html/F_CefSharp_Wpf_ChromiumWebBrowser_IsLoadingProperty.htm" />
   <HelpKINode Title="ChromiumWebBrowser.JavascriptObjectRepository property">
-    <HelpKINode Title="ChromiumWebBrowser.JavascriptObjectRepository Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_JavascriptObjectRepository.htm" />
     <HelpKINode Title="ChromiumWebBrowser.JavascriptObjectRepository Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_JavascriptObjectRepository.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.JavascriptObjectRepository Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_JavascriptObjectRepository.htm" />
     <HelpKINode Title="ChromiumWebBrowser.JavascriptObjectRepository Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_JavascriptObjectRepository.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.JsDialogHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.JsDialogHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_JsDialogHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.JsDialogHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_JsDialogHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.JsDialogHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_JsDialogHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.JsDialogHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_JsDialogHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_KeyboardHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_KeyboardHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_KeyboardHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_KeyboardHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler property">
     <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_LifeSpanHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_LifeSpanHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_LifeSpanHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_LifeSpanHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.Load method">
-    <HelpKINode Title="ChromiumWebBrowser.Load Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_Load.htm" />
     <HelpKINode Title="ChromiumWebBrowser.Load Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_Load.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.Load Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_Load.htm" />
     <HelpKINode Title="ChromiumWebBrowser.Load Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_Load.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.LoadError event">
-    <HelpKINode Title="ChromiumWebBrowser.LoadError Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_LoadError.htm" />
     <HelpKINode Title="ChromiumWebBrowser.LoadError Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_LoadError.htm" />
     <HelpKINode Title="ChromiumWebBrowser.LoadError Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_LoadError.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadError Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_LoadError.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.LoadHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_LoadHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_LoadHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_LoadHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_LoadHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_LoadHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged event">
-    <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_LoadingStateChanged.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_LoadingStateChanged.htm" />
     <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_LoadingStateChanged.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_LoadingStateChanged.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_LoadingStateChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.MenuHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.MenuHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_MenuHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.MenuHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_MenuHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.MenuHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_MenuHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.MenuHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_MenuHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.NewScreenshot event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_NewScreenshot.htm" />
   <HelpKINode Title="ChromiumWebBrowser.OnAddressChanged method" Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_OnAddressChanged.htm" />
@@ -1012,8 +1012,8 @@
   <HelpKINode Title="ChromiumWebBrowser.OnGotFocus method" Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_OnGotFocus.htm" />
   <HelpKINode Title="ChromiumWebBrowser.OnHandleCreated method" Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_OnHandleCreated.htm" />
   <HelpKINode Title="ChromiumWebBrowser.OnImeCompositionRangeChanged method">
-    <HelpKINode Title="ChromiumWebBrowser.OnImeCompositionRangeChanged Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_OnImeCompositionRangeChanged.htm" />
     <HelpKINode Title="ChromiumWebBrowser.OnImeCompositionRangeChanged Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_OnImeCompositionRangeChanged.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.OnImeCompositionRangeChanged Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_OnImeCompositionRangeChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.OnIsBrowserInitializedChanged method" Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_OnIsBrowserInitializedChanged.htm" />
   <HelpKINode Title="ChromiumWebBrowser.OnMouseDown method" Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_OnMouseDown.htm" />
@@ -1037,26 +1037,26 @@
   <HelpKINode Title="ChromiumWebBrowser.PrintCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_PrintCommand.htm" />
   <HelpKINode Title="ChromiumWebBrowser.RedoCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_RedoCommand.htm" />
   <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject method">
-    <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_RegisterAsyncJsObject.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_RegisterAsyncJsObject.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_RegisterAsyncJsObject.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_RegisterAsyncJsObject.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_RegisterAsyncJsObject.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.RegisterJsObject method">
-    <HelpKINode Title="ChromiumWebBrowser.RegisterJsObject Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_RegisterJsObject.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RegisterJsObject Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_RegisterJsObject.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.RegisterJsObject Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_RegisterJsObject.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RegisterJsObject Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_RegisterJsObject.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.ReloadCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_ReloadCommand.htm" />
   <HelpKINode Title="ChromiumWebBrowser.Rendering event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_Rendering.htm" />
   <HelpKINode Title="ChromiumWebBrowser.RenderProcessMessageHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.RenderProcessMessageHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_RenderProcessMessageHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RenderProcessMessageHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_RenderProcessMessageHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RenderProcessMessageHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_RenderProcessMessageHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.RenderProcessMessageHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_RenderProcessMessageHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.RequestContext property">
+    <HelpKINode Title="ChromiumWebBrowser.RequestContext Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_RequestContext.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RequestContext Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_RequestContext.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RequestContext Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_RequestContext.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.RequestContext Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_RequestContext.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.RequestHandler property">
     <HelpKINode Title="ChromiumWebBrowser.RequestHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_RequestHandler.htm" />
@@ -1077,22 +1077,22 @@
   <HelpKINode Title="ChromiumWebBrowser.Size property" Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_Size.htm" />
   <HelpKINode Title="ChromiumWebBrowser.StartDragging method" Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_StartDragging.htm" />
   <HelpKINode Title="ChromiumWebBrowser.StatusMessage event">
+    <HelpKINode Title="ChromiumWebBrowser.StatusMessage Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_StatusMessage.htm" />
     <HelpKINode Title="ChromiumWebBrowser.StatusMessage Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_StatusMessage.htm" />
     <HelpKINode Title="ChromiumWebBrowser.StatusMessage Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_StatusMessage.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.StatusMessage Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_StatusMessage.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.StopCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_StopCommand.htm" />
   <HelpKINode Title="ChromiumWebBrowser.Title property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_Title.htm" />
   <HelpKINode Title="ChromiumWebBrowser.TitleChanged event">
     <HelpKINode Title="ChromiumWebBrowser.TitleChanged Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_TitleChanged.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.TitleChanged Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_TitleChanged.htm" />
     <HelpKINode Title="ChromiumWebBrowser.TitleChanged Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_TitleChanged.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.TitleChanged Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_TitleChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.TitleProperty field" Url="html/F_CefSharp_Wpf_ChromiumWebBrowser_TitleProperty.htm" />
   <HelpKINode Title="ChromiumWebBrowser.TooltipText property">
+    <HelpKINode Title="ChromiumWebBrowser.TooltipText Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_TooltipText.htm" />
     <HelpKINode Title="ChromiumWebBrowser.TooltipText Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_TooltipText.htm" />
     <HelpKINode Title="ChromiumWebBrowser.TooltipText Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_TooltipText.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.TooltipText Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_TooltipText.htm" />
   </HelpKINode>
   <HelpKINode Title="ChromiumWebBrowser.TooltipTextProperty field" Url="html/F_CefSharp_Wpf_ChromiumWebBrowser_TooltipTextProperty.htm" />
   <HelpKINode Title="ChromiumWebBrowser.UndoCommand property" Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_UndoCommand.htm" />
@@ -1188,9 +1188,9 @@
   <HelpKINode Title="ConnectionReset enumeration member" Url="html/T_CefSharp_CefErrorCode.htm" />
   <HelpKINode Title="ConnectionTimedOut enumeration member" Url="html/T_CefSharp_CefErrorCode.htm" />
   <HelpKINode Title="ConsoleMessage event">
-    <HelpKINode Title="ChromiumWebBrowser.ConsoleMessage Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_ConsoleMessage.htm" />
     <HelpKINode Title="ChromiumWebBrowser.ConsoleMessage Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_ConsoleMessage.htm" />
     <HelpKINode Title="ChromiumWebBrowser.ConsoleMessage Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_ConsoleMessage.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.ConsoleMessage Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_ConsoleMessage.htm" />
     <HelpKINode Title="IWebBrowser.ConsoleMessage Event" Url="html/E_CefSharp_IWebBrowser_ConsoleMessage.htm" />
   </HelpKINode>
   <HelpKINode Title="ConsoleMessageEventArgs class">
@@ -1489,9 +1489,9 @@
   <HelpKINode Title="DestinationType property" Url="html/P_CefSharp_ModelBinding_BindingContext_DestinationType.htm" />
   <HelpKINode Title="DetectImportant enumeration member" Url="html/T_CefSharp_PluginPolicy.htm" />
   <HelpKINode Title="DialogHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.DialogHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_DialogHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DialogHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_DialogHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DialogHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DialogHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.DialogHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_DialogHandler.htm" />
     <HelpKINode Title="IWebBrowser.DialogHandler Property " Url="html/P_CefSharp_IWebBrowser_DialogHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="DictionarySuggestions property" Url="html/P_CefSharp_IContextMenuParams_DictionarySuggestions.htm" />
@@ -1557,9 +1557,9 @@
   <HelpKINode Title="Done enumeration member" Url="html/T_CefSharp_FilterStatus.htm" />
   <HelpKINode Title="Down enumeration member" Url="html/T_CefSharp_Wpf_Internals_VirtualKeys.htm" />
   <HelpKINode Title="DownloadHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.DownloadHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_DownloadHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DownloadHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DownloadHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DownloadHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_DownloadHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.DownloadHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_DownloadHandler.htm" />
     <HelpKINode Title="IWebBrowser.DownloadHandler Property " Url="html/P_CefSharp_IWebBrowser_DownloadHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="DownloadItem class">
@@ -1605,9 +1605,9 @@
   <HelpKINode Title="DraggableRegion.X property" Url="html/P_CefSharp_DraggableRegion_X.htm" />
   <HelpKINode Title="DraggableRegion.Y property" Url="html/P_CefSharp_DraggableRegion_Y.htm" />
   <HelpKINode Title="DragHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.DragHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DragHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DragHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_DragHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.DragHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_DragHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.DragHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_DragHandler.htm" />
     <HelpKINode Title="IWebBrowser.DragHandler Property " Url="html/P_CefSharp_IWebBrowser_DragHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="DragOperationsMask enumeration" Url="html/T_CefSharp_DragOperationsMask.htm" />
@@ -1761,9 +1761,9 @@
     <HelpKINode Title="WebBrowserExtensions.Find Method " Url="html/Overload_CefSharp_WebBrowserExtensions_Find.htm" />
   </HelpKINode>
   <HelpKINode Title="FindHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.FindHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_FindHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FindHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_FindHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FindHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_FindHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.FindHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_FindHandler.htm" />
     <HelpKINode Title="IWebBrowser.FindHandler Property " Url="html/P_CefSharp_IWebBrowser_FindHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="FixedFontFamily property">
@@ -1781,9 +1781,9 @@
   <HelpKINode Title="FocusedFrame property" Url="html/P_CefSharp_IBrowser_FocusedFrame.htm" />
   <HelpKINode Title="FocusedNodeChangedEnabled property" Url="html/P_CefSharp_CefSettings_FocusedNodeChangedEnabled.htm" />
   <HelpKINode Title="FocusHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.FocusHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_FocusHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FocusHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_FocusHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FocusHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_FocusHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.FocusHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_FocusHandler.htm" />
     <HelpKINode Title="IWebBrowser.FocusHandler Property " Url="html/P_CefSharp_IWebBrowser_FocusHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="FocusOnEditableField property" Url="html/P_CefSharp_KeyEvent_FocusOnEditableField.htm" />
@@ -1817,9 +1817,9 @@
   </HelpKINode>
   <HelpKINode Title="FrameCharset property" Url="html/P_CefSharp_IContextMenuParams_FrameCharset.htm" />
   <HelpKINode Title="FrameLoadEnd event">
-    <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_FrameLoadEnd.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_FrameLoadEnd.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_FrameLoadEnd.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_FrameLoadEnd.htm" />
     <HelpKINode Title="IWebBrowser.FrameLoadEnd Event" Url="html/E_CefSharp_IWebBrowser_FrameLoadEnd.htm" />
   </HelpKINode>
   <HelpKINode Title="FrameLoadEndEventArgs class">
@@ -1836,8 +1836,8 @@
   <HelpKINode Title="FrameLoadEndEventArgs.Url property" Url="html/P_CefSharp_FrameLoadEndEventArgs_Url.htm" />
   <HelpKINode Title="FrameLoadStart event">
     <HelpKINode Title="ChromiumWebBrowser.FrameLoadStart Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_FrameLoadStart.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.FrameLoadStart Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_FrameLoadStart.htm" />
     <HelpKINode Title="ChromiumWebBrowser.FrameLoadStart Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_FrameLoadStart.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.FrameLoadStart Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_FrameLoadStart.htm" />
     <HelpKINode Title="IWebBrowser.FrameLoadStart Event" Url="html/E_CefSharp_IWebBrowser_FrameLoadStart.htm" />
   </HelpKINode>
   <HelpKINode Title="FrameLoadStartEventArgs class">
@@ -1886,8 +1886,8 @@
   <HelpKINode Title="Generic enumeration member" Url="html/T_CefSharp_DragOperationsMask.htm" />
   <HelpKINode Title="GenericType property" Url="html/P_CefSharp_ModelBinding_BindingContext_GenericType.htm" />
   <HelpKINode Title="GeolocationHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.GeolocationHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_GeolocationHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.GeolocationHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_GeolocationHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.GeolocationHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_GeolocationHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.GeolocationHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_GeolocationHandler.htm" />
     <HelpKINode Title="IWebBrowser.GeolocationHandler Property " Url="html/P_CefSharp_IWebBrowser_GeolocationHandler.htm" />
   </HelpKINode>
@@ -2001,8 +2001,8 @@
   <HelpKINode Title="GetTypeAt method" Url="html/M_CefSharp_IMenuModel_GetTypeAt.htm" />
   <HelpKINode Title="GetValue method" Url="html/Overload_CefSharp_ModelBinding_DefaultBinder_GetValue.htm" />
   <HelpKINode Title="GetViewRect method">
-    <HelpKINode Title="ChromiumWebBrowser.GetViewRect Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_GetViewRect.htm" />
     <HelpKINode Title="ChromiumWebBrowser.GetViewRect Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_GetViewRect.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.GetViewRect Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_GetViewRect.htm" />
   </HelpKINode>
   <HelpKINode Title="GetVisibleNavigationEntry method" Url="html/M_CefSharp_IBrowserHost_GetVisibleNavigationEntry.htm" />
   <HelpKINode Title="GetWindowHandle method" Url="html/M_CefSharp_IBrowserHost_GetWindowHandle.htm" />
@@ -2903,8 +2903,8 @@
   <HelpKINode Title="IsActiveControl method" Url="html/M_CefSharp_WinForms_Internals_ControlExtensions_IsActiveControl.htm" />
   <HelpKINode Title="IsBound method" Url="html/M_CefSharp_IJavascriptObjectRepository_IsBound.htm" />
   <HelpKINode Title="IsBrowserInitialized property">
-    <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitialized Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_IsBrowserInitialized.htm" />
     <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitialized Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_IsBrowserInitialized.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitialized Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_IsBrowserInitialized.htm" />
     <HelpKINode Title="ChromiumWebBrowser.IsBrowserInitialized Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_IsBrowserInitialized.htm" />
     <HelpKINode Title="IsBrowserInitializedChangedEventArgs.IsBrowserInitialized Property " Url="html/P_CefSharp_IsBrowserInitializedChangedEventArgs_IsBrowserInitialized.htm" />
     <HelpKINode Title="IWebBrowser.IsBrowserInitialized Property " Url="html/P_CefSharp_IWebBrowser_IsBrowserInitialized.htm" />
@@ -3002,8 +3002,8 @@
   <HelpKINode Title="IsLink property" Url="html/P_CefSharp_IDragData_IsLink.htm" />
   <HelpKINode Title="IsLoading property">
     <HelpKINode Title="ChromiumWebBrowser.IsLoading Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_IsLoading.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.IsLoading Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_IsLoading.htm" />
     <HelpKINode Title="ChromiumWebBrowser.IsLoading Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_IsLoading.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.IsLoading Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_IsLoading.htm" />
     <HelpKINode Title="IBrowser.IsLoading Property " Url="html/P_CefSharp_IBrowser_IsLoading.htm" />
     <HelpKINode Title="IWebBrowser.IsLoading Property " Url="html/P_CefSharp_IWebBrowser_IsLoading.htm" />
     <HelpKINode Title="LoadingStateChangedEventArgs.IsLoading Property " Url="html/P_CefSharp_LoadingStateChangedEventArgs_IsLoading.htm" />
@@ -3212,9 +3212,9 @@
   </HelpKINode>
   <HelpKINode Title="JavascriptIgnoreAttribute.JavascriptIgnoreAttribute constructor" Url="html/M_CefSharp_JavascriptIgnoreAttribute__ctor.htm" />
   <HelpKINode Title="JavascriptObjectRepository property">
-    <HelpKINode Title="ChromiumWebBrowser.JavascriptObjectRepository Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_JavascriptObjectRepository.htm" />
     <HelpKINode Title="ChromiumWebBrowser.JavascriptObjectRepository Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_JavascriptObjectRepository.htm" />
     <HelpKINode Title="ChromiumWebBrowser.JavascriptObjectRepository Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_JavascriptObjectRepository.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.JavascriptObjectRepository Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_JavascriptObjectRepository.htm" />
     <HelpKINode Title="IWebBrowser.JavascriptObjectRepository Property " Url="html/P_CefSharp_IWebBrowser_JavascriptObjectRepository.htm" />
     <HelpKINode Title="ManagedCefBrowserAdapter.JavascriptObjectRepository Property " Url="html/P_CefSharp_ManagedCefBrowserAdapter_JavascriptObjectRepository.htm" />
   </HelpKINode>
@@ -3230,8 +3230,8 @@
   <HelpKINode Title="JavascriptResponse.Result property" Url="html/P_CefSharp_JavascriptResponse_Result.htm" />
   <HelpKINode Title="JavascriptResponse.Success property" Url="html/P_CefSharp_JavascriptResponse_Success.htm" />
   <HelpKINode Title="JsDialogHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.JsDialogHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_JsDialogHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.JsDialogHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_JsDialogHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.JsDialogHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_JsDialogHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.JsDialogHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_JsDialogHandler.htm" />
     <HelpKINode Title="IWebBrowser.JsDialogHandler Property " Url="html/P_CefSharp_IWebBrowser_JsDialogHandler.htm" />
   </HelpKINode>
@@ -3240,14 +3240,14 @@
   <HelpKINode Title="Kana enumeration member" Url="html/T_CefSharp_Wpf_Internals_VirtualKeys.htm" />
   <HelpKINode Title="Kanji enumeration member" Url="html/T_CefSharp_Wpf_Internals_VirtualKeys.htm" />
   <HelpKINode Title="KeyboardHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_KeyboardHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_KeyboardHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_KeyboardHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_KeyboardHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_KeyboardHandler.htm" />
     <HelpKINode Title="IWebBrowser.KeyboardHandler Property " Url="html/P_CefSharp_IWebBrowser_KeyboardHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="KeyDown enumeration member">
-    <HelpKINode Title="KeyEventType Enumeration" Url="html/T_CefSharp_KeyEventType.htm" />
     <HelpKINode Title="KeyType Enumeration" Url="html/T_CefSharp_KeyType.htm" />
+    <HelpKINode Title="KeyEventType Enumeration" Url="html/T_CefSharp_KeyEventType.htm" />
   </HelpKINode>
   <HelpKINode Title="KEYDOWN enumeration member" Url="html/T_CefSharp_Wpf_WM.htm" />
   <HelpKINode Title="KeyEvent structure">
@@ -3290,9 +3290,9 @@
   <HelpKINode Title="LeftWindows enumeration member" Url="html/T_CefSharp_Wpf_Internals_VirtualKeys.htm" />
   <HelpKINode Title="LegacyJavascriptBindingEnabled property" Url="html/P_CefSharp_CefSharpSettings_LegacyJavascriptBindingEnabled.htm" />
   <HelpKINode Title="LifeSpanHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_LifeSpanHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_LifeSpanHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_LifeSpanHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_LifeSpanHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_LifeSpanHandler.htm" />
     <HelpKINode Title="IWebBrowser.LifeSpanHandler Property " Url="html/P_CefSharp_IWebBrowser_LifeSpanHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="Line property" Url="html/P_CefSharp_ConsoleMessageEventArgs_Line.htm" />
@@ -3308,15 +3308,15 @@
     <HelpKINode Title="IDragData.LinkUrl Property " Url="html/P_CefSharp_IDragData_LinkUrl.htm" />
   </HelpKINode>
   <HelpKINode Title="Load method">
-    <HelpKINode Title="ChromiumWebBrowser.Load Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_Load.htm" />
     <HelpKINode Title="ChromiumWebBrowser.Load Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_Load.htm" />
     <HelpKINode Title="ChromiumWebBrowser.Load Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_Load.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.Load Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_Load.htm" />
     <HelpKINode Title="IWebBrowser.Load Method " Url="html/M_CefSharp_IWebBrowser_Load.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadError event">
-    <HelpKINode Title="ChromiumWebBrowser.LoadError Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_LoadError.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.LoadError Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_LoadError.htm" />
     <HelpKINode Title="ChromiumWebBrowser.LoadError Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_LoadError.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadError Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_LoadError.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadError Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_LoadError.htm" />
     <HelpKINode Title="IWebBrowser.LoadError Event" Url="html/E_CefSharp_IWebBrowser_LoadError.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadErrorEventArgs class">
@@ -3333,16 +3333,16 @@
   <HelpKINode Title="LoadErrorEventArgs.Frame property" Url="html/P_CefSharp_LoadErrorEventArgs_Frame.htm" />
   <HelpKINode Title="LoadErrorEventArgs.LoadErrorEventArgs constructor" Url="html/M_CefSharp_LoadErrorEventArgs__ctor.htm" />
   <HelpKINode Title="LoadHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_LoadHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_LoadHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_LoadHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_LoadHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_LoadHandler.htm" />
     <HelpKINode Title="IWebBrowser.LoadHandler Property " Url="html/P_CefSharp_IWebBrowser_LoadHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadHtml method" Url="html/Overload_CefSharp_WebBrowserExtensions_LoadHtml.htm" />
   <HelpKINode Title="LoadingStateChanged event">
     <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_LoadingStateChanged.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_LoadingStateChanged.htm" />
     <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_LoadingStateChanged.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_LoadingStateChanged.htm" />
     <HelpKINode Title="IWebBrowser.LoadingStateChanged Event" Url="html/E_CefSharp_IWebBrowser_LoadingStateChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadingStateChangedEventArgs class">
@@ -3423,9 +3423,9 @@
     <HelpKINode Title="PopupFeatures.MenuBarVisible Property " Url="html/P_CefSharp_PopupFeatures_MenuBarVisible.htm" />
   </HelpKINode>
   <HelpKINode Title="MenuHandler property">
+    <HelpKINode Title="ChromiumWebBrowser.MenuHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_MenuHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.MenuHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_MenuHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.MenuHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_MenuHandler.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.MenuHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_MenuHandler.htm" />
     <HelpKINode Title="IWebBrowser.MenuHandler Property " Url="html/P_CefSharp_IWebBrowser_MenuHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="MenuItemType enumeration" Url="html/T_CefSharp_MenuItemType.htm" />
@@ -3700,8 +3700,8 @@
   </HelpKINode>
   <HelpKINode Title="OnHandleCreated method" Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_OnHandleCreated.htm" />
   <HelpKINode Title="OnImeCompositionRangeChanged method">
-    <HelpKINode Title="ChromiumWebBrowser.OnImeCompositionRangeChanged Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_OnImeCompositionRangeChanged.htm" />
     <HelpKINode Title="ChromiumWebBrowser.OnImeCompositionRangeChanged Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_OnImeCompositionRangeChanged.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.OnImeCompositionRangeChanged Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_OnImeCompositionRangeChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="OnIsBrowserInitializedChanged method" Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_OnIsBrowserInitializedChanged.htm" />
   <HelpKINode Title="OnJSBeforeUnload method" Url="html/M_CefSharp_IJsDialogHandler_OnJSBeforeUnload.htm" />
@@ -4049,17 +4049,17 @@
   <HelpKINode Title="RefreshWebPlugins method" Url="html/M_CefSharp_Cef_RefreshWebPlugins.htm" />
   <HelpKINode Title="Register method" Url="html/M_CefSharp_IJavascriptObjectRepository_Register.htm" />
   <HelpKINode Title="RegisterAsyncJsObject method">
+    <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_RegisterAsyncJsObject.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_RegisterAsyncJsObject.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_RegisterAsyncJsObject.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_RegisterAsyncJsObject.htm" />
     <HelpKINode Title="IWebBrowser.RegisterAsyncJsObject Method " Url="html/M_CefSharp_IWebBrowser_RegisterAsyncJsObject.htm" />
   </HelpKINode>
   <HelpKINode Title="RegisterExtension method" Url="html/M_CefSharp_CefSettings_RegisterExtension.htm" />
   <HelpKINode Title="RegisterHandler method" Url="html/M_CefSharp_DefaultResourceHandlerFactory_RegisterHandler.htm" />
   <HelpKINode Title="RegisterJsObject method">
+    <HelpKINode Title="ChromiumWebBrowser.RegisterJsObject Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_RegisterJsObject.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RegisterJsObject Method " Url="html/M_CefSharp_Wpf_ChromiumWebBrowser_RegisterJsObject.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RegisterJsObject Method " Url="html/M_CefSharp_OffScreen_ChromiumWebBrowser_RegisterJsObject.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.RegisterJsObject Method " Url="html/M_CefSharp_WinForms_ChromiumWebBrowser_RegisterJsObject.htm" />
     <HelpKINode Title="IWebBrowser.RegisterJsObject Method " Url="html/M_CefSharp_IWebBrowser_RegisterJsObject.htm" />
   </HelpKINode>
   <HelpKINode Title="RegisterResourceHandler method" Url="html/M_CefSharp_WebBrowserExtensions_RegisterResourceHandler.htm" />
@@ -4108,9 +4108,9 @@
   <HelpKINode Title="RenderingEventArgs.BitmapInfo property" Url="html/P_CefSharp_Wpf_RenderingEventArgs_BitmapInfo.htm" />
   <HelpKINode Title="RenderingEventArgs.RenderingEventArgs constructor" Url="html/M_CefSharp_Wpf_RenderingEventArgs__ctor.htm" />
   <HelpKINode Title="RenderProcessMessageHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.RenderProcessMessageHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_RenderProcessMessageHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RenderProcessMessageHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_RenderProcessMessageHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RenderProcessMessageHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_RenderProcessMessageHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.RenderProcessMessageHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_RenderProcessMessageHandler.htm" />
     <HelpKINode Title="IWebBrowser.RenderProcessMessageHandler Property " Url="html/P_CefSharp_IWebBrowser_RenderProcessMessageHandler.htm" />
   </HelpKINode>
   <HelpKINode Title="ReplaceMisspelling method">
@@ -4126,8 +4126,8 @@
     <HelpKINode Title="properties" Url="html/Properties_T_CefSharp_RequestContext.htm" />
   </HelpKINode>
   <HelpKINode Title="RequestContext property">
-    <HelpKINode Title="ChromiumWebBrowser.RequestContext Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_RequestContext.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RequestContext Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_RequestContext.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.RequestContext Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_RequestContext.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RequestContext Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_RequestContext.htm" />
     <HelpKINode Title="IBrowserHost.RequestContext Property " Url="html/P_CefSharp_IBrowserHost_RequestContext.htm" />
     <HelpKINode Title="IWebBrowser.RequestContext Property " Url="html/P_CefSharp_IWebBrowser_RequestContext.htm" />
@@ -4170,8 +4170,8 @@
   <HelpKINode Title="RequestContextSettings.RequestContextSettings constructor" Url="html/M_CefSharp_RequestContextSettings__ctor.htm" />
   <HelpKINode Title="RequestForSecureResourceOverInsecureQuic enumeration member" Url="html/T_CefSharp_CefErrorCode.htm" />
   <HelpKINode Title="RequestHandler property">
-    <HelpKINode Title="ChromiumWebBrowser.RequestHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_RequestHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RequestHandler Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_RequestHandler.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.RequestHandler Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_RequestHandler.htm" />
     <HelpKINode Title="ChromiumWebBrowser.RequestHandler Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_RequestHandler.htm" />
     <HelpKINode Title="IWebBrowser.RequestHandler Property " Url="html/P_CefSharp_IWebBrowser_RequestHandler.htm" />
   </HelpKINode>
@@ -4229,9 +4229,9 @@
   <HelpKINode Title="ResourceHandler.StatusText property" Url="html/P_CefSharp_ResourceHandler_StatusText.htm" />
   <HelpKINode Title="ResourceHandler.Stream property" Url="html/P_CefSharp_ResourceHandler_Stream.htm" />
   <HelpKINode Title="ResourceHandlerFactory property">
-    <HelpKINode Title="ChromiumWebBrowser.ResourceHandlerFactory Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_ResourceHandlerFactory.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.ResourceHandlerFactory Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_ResourceHandlerFactory.htm" />
     <HelpKINode Title="ChromiumWebBrowser.ResourceHandlerFactory Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_ResourceHandlerFactory.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.ResourceHandlerFactory Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_ResourceHandlerFactory.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.ResourceHandlerFactory Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_ResourceHandlerFactory.htm" />
     <HelpKINode Title="IWebBrowser.ResourceHandlerFactory Property " Url="html/P_CefSharp_IWebBrowser_ResourceHandlerFactory.htm" />
   </HelpKINode>
   <HelpKINode Title="ResourceHandlerWrapper structure">
@@ -4709,9 +4709,9 @@
     <HelpKINode Title="TitleChangedEventArgs.Title Property " Url="html/P_CefSharp_TitleChangedEventArgs_Title.htm" />
   </HelpKINode>
   <HelpKINode Title="TitleChanged event">
+    <HelpKINode Title="ChromiumWebBrowser.TitleChanged Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_TitleChanged.htm" />
     <HelpKINode Title="ChromiumWebBrowser.TitleChanged Event" Url="html/E_CefSharp_WinForms_ChromiumWebBrowser_TitleChanged.htm" />
     <HelpKINode Title="ChromiumWebBrowser.TitleChanged Event" Url="html/E_CefSharp_OffScreen_ChromiumWebBrowser_TitleChanged.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.TitleChanged Event" Url="html/E_CefSharp_Wpf_ChromiumWebBrowser_TitleChanged.htm" />
     <HelpKINode Title="IWinFormsWebBrowser.TitleChanged Event" Url="html/E_CefSharp_WinForms_IWinFormsWebBrowser_TitleChanged.htm" />
   </HelpKINode>
   <HelpKINode Title="TitleChangedEventArgs class">
@@ -4734,8 +4734,8 @@
   </HelpKINode>
   <HelpKINode Title="TooltipText property">
     <HelpKINode Title="ChromiumWebBrowser.TooltipText Property " Url="html/P_CefSharp_WinForms_ChromiumWebBrowser_TooltipText.htm" />
-    <HelpKINode Title="ChromiumWebBrowser.TooltipText Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_TooltipText.htm" />
     <HelpKINode Title="ChromiumWebBrowser.TooltipText Property " Url="html/P_CefSharp_Wpf_ChromiumWebBrowser_TooltipText.htm" />
+    <HelpKINode Title="ChromiumWebBrowser.TooltipText Property " Url="html/P_CefSharp_OffScreen_ChromiumWebBrowser_TooltipText.htm" />
     <HelpKINode Title="IWebBrowser.TooltipText Property " Url="html/P_CefSharp_IWebBrowser_TooltipText.htm" />
   </HelpKINode>
   <HelpKINode Title="TooltipTextProperty field" Url="html/F_CefSharp_Wpf_ChromiumWebBrowser_TooltipTextProperty.htm" />
