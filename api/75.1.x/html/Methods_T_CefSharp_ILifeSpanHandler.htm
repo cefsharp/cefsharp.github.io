@@ -1,0 +1,65 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>ILifeSpanHandler Methods</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="ILifeSpanHandler interface, methods" /><meta name="Microsoft.Help.Id" content="Methods.T:CefSharp.ILifeSpanHandler" /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="CefSharp" /><meta name="file" content="Methods_T_CefSharp_ILifeSpanHandler" /><meta name="guid" content="Methods_T_CefSharp_ILifeSpanHandler" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">CefSharp API Doc<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html\R_Project_Documentation.htm" title="CefSharp API Doc" tocid="roottoc">CefSharp API Doc</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/R_Project_Documentation.htm" title="Namespaces" tocid="R_Project_Documentation">Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/N_CefSharp.htm" title="CefSharp" tocid="N_CefSharp">CefSharp</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/T_CefSharp_ILifeSpanHandler.htm" title="ILifeSpanHandler Interface" tocid="T_CefSharp_ILifeSpanHandler">ILifeSpanHandler Interface</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Methods_T_CefSharp_ILifeSpanHandler.htm" title="ILifeSpanHandler Methods" tocid="Methods_T_CefSharp_ILifeSpanHandler">ILifeSpanHandler Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/M_CefSharp_ILifeSpanHandler_DoClose.htm" title="DoClose Method " tocid="M_CefSharp_ILifeSpanHandler_DoClose">DoClose Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/M_CefSharp_ILifeSpanHandler_OnAfterCreated.htm" title="OnAfterCreated Method " tocid="M_CefSharp_ILifeSpanHandler_OnAfterCreated">OnAfterCreated Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/M_CefSharp_ILifeSpanHandler_OnBeforeClose.htm" title="OnBeforeClose Method " tocid="M_CefSharp_ILifeSpanHandler_OnBeforeClose">OnBeforeClose Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/M_CefSharp_ILifeSpanHandler_OnBeforePopup.htm" title="OnBeforePopup Method " tocid="M_CefSharp_ILifeSpanHandler_OnBeforePopup">OnBeforePopup Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>ILifeSpanHandler Methods</h1></td></tr></table><span class="introStyle">Version 75.1.140</span> <p>The <a href="T_CefSharp_ILifeSpanHandler.htm">ILifeSpanHandler</a> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID0RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_ILifeSpanHandler_DoClose.htm">DoClose</a></td><td><div class="summary">
+             Called when a browser has recieved a request to close. This may result
+             directly from a call to CefBrowserHost::CloseBrowser() or indirectly if the
+             browser is a top-level OS window created by CEF and the user attempts to
+             close the window. This method will be called after the JavaScript
+             'onunload' event has been fired. It will not be called for browsers after
+             the associated OS window has been destroyed (for those browsers it is no
+             longer possible to cancel the close).
+            
+             If CEF created an OS window for the browser returning false will send an OS
+             close notification to the browser window's top-level owner (e.g. WM_CLOSE
+             on Windows, performClose: on OS-X and "delete_event" on Linux). If no OS
+             window exists (window rendering disabled) returning false will cause the
+             browser object to be destroyed immediately. Return true if the browser is
+             parented to another window and that other window needs to receive close
+             notification via some non-standard technique.
+            
+             If an application provides its own top-level window it should handle OS
+             close notifications by calling CefBrowserHost::CloseBrowser(false) instead
+             of immediately closing (see the example below). This gives CEF an
+             opportunity to process the 'onbeforeunload' event and optionally cancel the
+             close before DoClose() is called.
+            
+             The CefLifeSpanHandler::OnBeforeClose() method will be called immediately
+             before the browser object is destroyed. The application should only exit
+             after OnBeforeClose() has been called for all existing browsers.
+            
+             If the browser represents a modal window and a custom modal loop
+             implementation was provided in CefLifeSpanHandler::RunModal() this callback
+             should be used to restore the opener window to a usable state.
+            
+             By way of example consider what should happen during window close when the
+             browser is parented to an application-provided top-level OS window.
+             1.  User clicks the window close button which sends an OS close
+                 notification (e.g. WM_CLOSE on Windows, performClose: on OS-X and
+                 "delete_event" on Linux).
+             2.  Application's top-level window receives the close notification and:
+                 A. Calls CefBrowserHost::CloseBrowser(false).
+                 B. Cancels the window close.
+             3.  JavaScript 'onbeforeunload' handler executes and shows the close
+                 confirmation dialog (which can be overridden via
+                 CefJSDialogHandler::OnBeforeUnloadDialog()).
+             4.  User approves the close.
+             5.  JavaScript 'onunload' handler executes.
+             6.  Application's DoClose() handler is called. Application will:
+                 A. Set a flag to indicate that the next close attempt will be allowed.
+                 B. Return false.
+             7.  CEF sends an OS close notification.
+             8.  Application's top-level window receives the OS close notification and
+                 allows the window to close based on the flag from #6B.
+             9.  Browser OS window is destroyed.
+             10. Application's CefLifeSpanHandler::OnBeforeClose() handler is called and
+                 the browser object is destroyed.
+             11. Application exits by calling CefQuitMessageLoop() if no other browsers
+                 exist.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_ILifeSpanHandler_OnAfterCreated.htm">OnAfterCreated</a></td><td><div class="summary">
+            Called after a new browser is created.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_ILifeSpanHandler_OnBeforeClose.htm">OnBeforeClose</a></td><td><div class="summary">
+            Called before a CefBrowser window (either the main browser for <a href="T_CefSharp_IWebBrowser.htm">IWebBrowser</a>, 
+            or one of its children)
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_ILifeSpanHandler_OnBeforePopup.htm">OnBeforePopup</a></td><td><div class="summary">
+            Called before a popup window is created.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_CefSharp_ILifeSpanHandler.htm">ILifeSpanHandler Interface</a></div><div class="seeAlsoStyle"><a href="N_CefSharp.htm">CefSharp Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p><a href="https://raw.githubusercontent.com/cefsharp/CefSharp/master/LICENSE" target="_blank">https://raw.githubusercontent.com/cefsharp/CefSharp/master/LICENSE</a></p> </div></body></html>
