@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cookie Read/Write Test</title>
+	<script>
+	function SetCookie(cookieNameId,valueId)
+	{
+		let cookieName = document.getElementById(cookieNameId).value;
+		let cookieVal = document.getElementById(valueId).value;
+		document.cookie = cookieName + "=" + cookieVal + ";expires=Fri, 31 Dec 9999 23:59:59 UTC;";
+	}
+	
+	function WriteCookies()
+	{
+		var p2 = "<p>Time:" + (new Date()).getTime() + " Cookie: " + document.cookie + "</p>";
+		document.getElementById("cookies").insertAdjacentHTML('beforebegin', p2);
+	}
+	</script>
+</head>
+<body>
+	<b>Cookie Read/Write Test</b>
+	<table width="400px">
+		<tr>
+			<th>Name</th>
+			<th>Value</th>
+			<th>&nbsp;</th>
+		</tr>
+		<tr>
+			<td><input type="text" id="CookieName1" value="TestCookie1"/></td>
+			<td><input type="text" id="CookieVal1" value="Cookie1"/></td>
+			<td><a href="#" onclick="SetCookie('CookieName1','CookieVal1');">Set</a></td>
+		</tr>
+		<tr>
+			<td><input type="text" id="CookieName2" value="TestCookie2"/></td>
+			<td><input type="text" id="CookieVal2" value="Cookie2"></td>
+			<td><a href="#" onclick="SetCookie('CookieName2','CookieVal2');">Set</a></td>
+		</tr>
+		<tr>
+			<td><input type="text" id="CookieName3" value="TestCookie3"/></td>
+			<td><input type="text" id="CookieVal3" value="1"></td>
+			<td><a href="#" onclick="SetCookie('CookieName3','CookieVal3');">Set</a></td>
+		</tr>
+		<tr>
+			<td><input type="text" id="CookieName4" value="TestCookie4"/></td>
+			<td><input type="text" id="CookieVal4" value="MuchLongerCookieStringIsSetHereForEverything"></td>
+			<td><a href="#" onclick="SetCookie('CookieName4','CookieVal4');">Set</a></td>
+		</tr>
+	</table>
+	<hr/>
+	<b>Existing Cookies</b> (<a href="#" onclick="WriteCookies();">Update</a>)
+	<p id="cookies">&nbsp;</p>
+	<script>
+	WriteCookies();	
+	</script>
+</body>
+</html>
