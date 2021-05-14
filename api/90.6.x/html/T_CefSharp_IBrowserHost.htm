@@ -1,0 +1,253 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>IBrowserHost Interface</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="IBrowserHost interface" /><meta name="System.Keywords" content="CefSharp.IBrowserHost interface" /><meta name="Microsoft.Help.F1" content="CefSharp.IBrowserHost" /><meta name="Microsoft.Help.Id" content="T:CefSharp.IBrowserHost" /><meta name="Description" content="Interface used to represent the browser process aspects of a browser window. They may be called on any thread in that process unless otherwise indicated in the comments." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="CefSharp" /><meta name="file" content="T_CefSharp_IBrowserHost" /><meta name="guid" content="T_CefSharp_IBrowserHost" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">CefSharp API Doc<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/R_Project_Documentation.htm" title="CefSharp API Doc" tocid="roottoc">CefSharp API Doc</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/R_Project_Documentation.htm" title="Namespaces" tocid="R_Project_Documentation">Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/N_CefSharp.htm" title="CefSharp" tocid="N_CefSharp">CefSharp</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/T_CefSharp_IBrowserHost.htm" title="IBrowserHost Interface" tocid="T_CefSharp_IBrowserHost">IBrowserHost Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Properties_T_CefSharp_IBrowserHost.htm" title="IBrowserHost Properties" tocid="Properties_T_CefSharp_IBrowserHost">IBrowserHost Properties</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Methods_T_CefSharp_IBrowserHost.htm" title="IBrowserHost Methods" tocid="Methods_T_CefSharp_IBrowserHost">IBrowserHost Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>IBrowserHost Interface</h1></td></tr></table><span class="introStyle">Version 90.6.50</span> <div class="summary">
+            Interface used to represent the browser process aspects of a browser window.
+            They may be called on any thread in that process unless otherwise indicated in the comments. 
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_CefSharp.htm">CefSharp</a><br />
+    <strong>Assembly:</strong>
+   CefSharp (in CefSharp.dll) Version: 90.6.50.0 (90.6.50.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cpp','2','2');return false;">C++</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="identifier">IBrowserHost</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">interface class</span> <span class="identifier">IBrowserHost</span> : <span class="identifier">IDisposable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script></div><p>The <span class="selflink">IBrowserHost</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID2RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IBrowserHost_Extension.htm">Extension</a></td><td><div class="summary">
+            Returns the extension hosted in this browser or null if no extension is hosted. See <a href="M_CefSharp_IRequestContext_LoadExtension.htm">LoadExtension(String, String, IExtensionHandler)</a> for details.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IBrowserHost_HasDevTools.htm">HasDevTools</a></td><td><div class="summary">
+            Returns true if this browser currently has an associated DevTools browser.
+            Must be called on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IBrowserHost_IsAudioMuted.htm">IsAudioMuted</a></td><td><div class="summary">
+            Returns true if the browser's audio is muted.
+            This method can only be called on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IBrowserHost_IsBackgroundHost.htm">IsBackgroundHost</a></td><td><div class="summary">
+            Returns true if this browser is hosting an extension background script. Background hosts do not have a window and are not displayable.
+            See <a href="M_CefSharp_IRequestContext_LoadExtension.htm">LoadExtension(String, String, IExtensionHandler)</a> for details.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IBrowserHost_IsDisposed.htm">IsDisposed</a></td><td><div class="summary">
+            Gets a value indicating whether the browserHost has been disposed of.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IBrowserHost_RequestContext.htm">RequestContext</a></td><td><div class="summary">
+            Returns the request context for this browser.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IBrowserHost_WindowlessFrameRate.htm">WindowlessFrameRate</a></td><td><div class="summary">
+            Gets/sets the maximum rate in frames per second (fps) that CefRenderHandler::
+            OnPaint will be called for a windowless browser. The actual fps may be
+            lower if the browser cannot generate frames at the requested rate. The
+            minimum value is 1 and the maximum value is 60 (default 30). This method
+            can only be called on the UI thread. Can also be set at browser creation
+            via BrowserSettings.WindowlessFrameRate.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IBrowserHost_WindowRenderingDisabled.htm">WindowRenderingDisabled</a></td><td><div class="summary">
+            Returns true if window rendering is disabled.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_AddDevToolsMessageObserver.htm">AddDevToolsMessageObserver</a></td><td><div class="summary">
+            Add an observer for DevTools protocol messages (method results and events).
+            The observer will remain registered until the returned Registration object
+            is destroyed. See the SendDevToolsMessage documentation for additional
+            usage information.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_AddWordToDictionary.htm">AddWordToDictionary</a></td><td><div class="summary">
+            Add the specified word to the spelling dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_CloseBrowser.htm">CloseBrowser</a></td><td><div class="summary">
+            Request that the browser close. The JavaScript 'onbeforeunload' event will be fired.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_CloseDevTools.htm">CloseDevTools</a></td><td><div class="summary">
+            Explicitly close the developer tools window if one exists for this browser instance.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.idisposable.dispose#System_IDisposable_Dispose" target="_blank">Dispose</a></td><td><div class="summary">Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.idisposable" target="_blank">IDisposable</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_DragSourceEndedAt.htm">DragSourceEndedAt</a></td><td><div class="summary">
+            Call this method when the drag operation started by a <span class="nolink">StartDragging(IDragData, DragOperationsMask, Int32, Int32)</span> call has ended either in a drop or by being cancelled.
+            If the web view is both the drag source and the drag target then all DragTarget* methods should be called before DragSource* methods.
+            This method is only used when window rendering is disabled. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_DragSourceSystemDragEnded.htm">DragSourceSystemDragEnded</a></td><td><div class="summary">
+            Call this method when the drag operation started by a <span class="nolink">StartDragging(IDragData, DragOperationsMask, Int32, Int32)</span> call has completed.
+            This method may be called immediately without first calling DragSourceEndedAt to cancel a drag operation.
+            If the web view is both the drag source and the drag target then all DragTarget* methods should be called before DragSource* mthods.
+            This method is only used when window rendering is disabled. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_DragTargetDragDrop.htm">DragTargetDragDrop</a></td><td><div class="summary">
+            Call this method when the user completes the drag operation by dropping the object onto the web view (after calling <a href="M_CefSharp_IBrowserHost_DragTargetDragEnter.htm">DragTargetDragEnter(IDragData, MouseEvent, DragOperationsMask)</a>). 
+            The object being dropped is <a href="T_CefSharp_IDragData.htm">IDragData</a>, given as an argument to the previous <a href="M_CefSharp_IBrowserHost_DragTargetDragEnter.htm">DragTargetDragEnter(IDragData, MouseEvent, DragOperationsMask)</a> call. 
+            This method is only used when window rendering is disabled.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_DragTargetDragEnter.htm">DragTargetDragEnter</a></td><td><div class="summary">
+            Call this method when the user drags the mouse into the web view (before calling <a href="M_CefSharp_IBrowserHost_DragTargetDragOver.htm">DragTargetDragOver(MouseEvent, DragOperationsMask)</a>/<a href="M_CefSharp_IBrowserHost_DragTargetDragLeave.htm">DragTargetDragLeave<span id="LST1C714358_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C714358_0?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>/<a href="M_CefSharp_IBrowserHost_DragTargetDragDrop.htm">DragTargetDragDrop(MouseEvent)</a>).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_DragTargetDragLeave.htm">DragTargetDragLeave</a></td><td><div class="summary">
+            Call this method when the user drags the mouse out of the web view (after calling <a href="M_CefSharp_IBrowserHost_DragTargetDragEnter.htm">DragTargetDragEnter(IDragData, MouseEvent, DragOperationsMask)</a>).
+            This method is only used when window rendering is disabled.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_DragTargetDragOver.htm">DragTargetDragOver</a></td><td><div class="summary">
+            Call this method each time the mouse is moved across the web view during a drag operation (after calling <a href="M_CefSharp_IBrowserHost_DragTargetDragEnter.htm">DragTargetDragEnter(IDragData, MouseEvent, DragOperationsMask)</a> and before calling <a href="M_CefSharp_IBrowserHost_DragTargetDragLeave.htm">DragTargetDragLeave<span id="LST1C714358_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C714358_1?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>/<a href="M_CefSharp_IBrowserHost_DragTargetDragDrop.htm">DragTargetDragDrop(MouseEvent)</a>). 
+            This method is only used when window rendering is disabled.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_ExecuteDevToolsMethod.htm">ExecuteDevToolsMethod(Int32, String, IDictionary<span id="LST1C714358_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C714358_2?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>String, Object<span id="LST1C714358_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST1C714358_3?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td><div class="summary">
+            Execute a method call over the DevTools protocol. This is a more structured
+            version of SendDevToolsMessage.
+            See the DevTools protocol documentation at https://chromedevtools.github.io/devtools-protocol/ for details
+            of supported methods and the expected <span class="parameter">paramsAsJson</span> dictionary contents.
+            See the SendDevToolsMessage documentation for additional usage information.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_ExecuteDevToolsMethod_1.htm">ExecuteDevToolsMethod(Int32, String, String)</a></td><td><div class="summary">
+            Execute a method call over the DevTools protocol. This is a more structured
+            version of SendDevToolsMessage.
+            See the DevTools protocol documentation at https://chromedevtools.github.io/devtools-protocol/ for details
+            of supported methods and the expected <span class="parameter">paramsAsJson</span> dictionary contents.
+            See the SendDevToolsMessage documentation for additional usage information.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_Find.htm">Find</a></td><td><div class="summary">
+            Search for <span class="parameter">searchText</span>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_GetNavigationEntries.htm">GetNavigationEntries</a></td><td><div class="summary">
+            Retrieve a snapshot of current navigation entries as values sent to the
+            specified visitor. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_GetOpenerWindowHandle.htm">GetOpenerWindowHandle</a></td><td><div class="summary">
+            Retrieve the window handle of the browser that opened this browser.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_GetVisibleNavigationEntry.htm">GetVisibleNavigationEntry</a></td><td><div class="summary">
+            Returns the current visible navigation entry for this browser. This method
+            can only be called on the CEF UI thread which by default is not the same
+            as your application UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_GetWindowHandle.htm">GetWindowHandle</a></td><td><div class="summary">
+            Retrieve the window handle for this browser. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_GetZoomLevel.htm">GetZoomLevel</a></td><td><div class="summary">
+            Gets the current zoom level. The default zoom level is 0.0. This method can only be called on the CEF UI thread. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_GetZoomLevelAsync.htm">GetZoomLevelAsync</a></td><td><div class="summary">
+            Get the current zoom level. The default zoom level is 0.0. This method executes GetZoomLevel on the CEF UI thread
+            in an async fashion.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_ImeCancelComposition.htm">ImeCancelComposition</a></td><td><div class="summary">
+            Cancels the existing composition and discards the composition node
+            contents without applying them. See comments on ImeSetComposition for
+            usage.
+            This method is only used when window rendering is disabled. (WPF and OffScreen) 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_ImeCommitText.htm">ImeCommitText</a></td><td><div class="summary">
+            Completes the existing composition by optionally inserting the specified
+            text into the composition node.
+            This method is only used when window rendering is disabled. (WPF and OffScreen) 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_ImeFinishComposingText.htm">ImeFinishComposingText</a></td><td><div class="summary">
+            Completes the existing composition by applying the current composition node
+            contents. See comments on ImeSetComposition for usage.
+            This method is only used when window rendering is disabled. (WPF and OffScreen) 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_ImeSetComposition.htm">ImeSetComposition</a></td><td><div class="summary">
+             Begins a new composition or updates the existing composition. Blink has a
+             special node (a composition node) that allows the input method to change
+             text without affecting other DOM nodes. 
+            
+             This method may be called multiple times as the composition changes. When
+             the client is done making changes the composition should either be canceled
+             or completed. To cancel the composition call ImeCancelComposition. To
+             complete the composition call either ImeCommitText or
+             ImeFinishComposingText. Completion is usually signaled when:
+             The client receives a WM_IME_COMPOSITION message with a GCS_RESULTSTR
+             flag (on Windows).
+             This method is only used when window rendering is disabled. (WPF and OffScreen) 
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_Invalidate.htm">Invalidate</a></td><td><div class="summary">
+            Invalidate the view. The browser will call CefRenderHandler::OnPaint asynchronously.
+            This method is only used when window rendering is disabled (OSR). 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_NotifyMoveOrResizeStarted.htm">NotifyMoveOrResizeStarted</a></td><td><div class="summary">
+            Notify the browser that the window hosting it is about to be moved or resized.
+            This will dismiss any existing popups (dropdowns).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_NotifyScreenInfoChanged.htm">NotifyScreenInfoChanged</a></td><td><div class="summary">
+            Send a notification to the browser that the screen info has changed.
+            The browser will then call CefRenderHandler::GetScreenInfo to update the screen information with the new values.
+            This simulates moving the webview window from one display to another, or changing the properties of the current display.
+            This method is only used when window rendering is disabled. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_Print.htm">Print</a></td><td><div class="summary">
+            Print the current browser contents. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_PrintToPdf.htm">PrintToPdf</a></td><td><div class="summary">
+            Asynchronously prints the current browser contents to the Pdf file specified.
+            The caller is responsible for deleting the file when done.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_ReplaceMisspelling.htm">ReplaceMisspelling</a></td><td><div class="summary">
+            If a misspelled word is currently selected in an editable node calling this method will replace it with the specified word.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_RunFileDialog.htm">RunFileDialog</a></td><td><div class="summary">
+            Call to run a file chooser dialog. Only a single file chooser dialog may be pending at any given time.
+            The dialog will be initiated asynchronously on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendCaptureLostEvent.htm">SendCaptureLostEvent</a></td><td><div class="summary">
+            Send a capture lost event to the browser.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendDevToolsMessage.htm">SendDevToolsMessage</a></td><td><div class="summary">
+             Send a method call message over the DevTools protocol. <span class="parameter">message</span> must be a
+             UTF8-encoded JSON dictionary that contains "id" (int), "method" (string)
+             and "params" (dictionary, optional) values. See the DevTools protocol
+             documentation at https://chromedevtools.github.io/devtools-protocol/ for
+             details of supported methods and the expected "params" dictionary contents.
+             <span class="parameter">message</span> will be copied if necessary. This method will return true if
+             called on the CEF UI thread and the message was successfully submitted for
+             validation, otherwise false. Validation will be applied asynchronously and
+             any messages that fail due to formatting errors or missing parameters may
+             be discarded without notification. Prefer ExecuteDevToolsMethod if a more
+             structured approach to message formatting is desired.
+            
+             Every valid method call will result in an asynchronous method result or
+             error message that references the sent message "id". Event messages are
+             received while notifications are enabled (for example, between method calls
+             for "Page.enable" and "Page.disable"). All received messages will be
+             delivered to the observer(s) registered with AddDevToolsMessageObserver.
+             See <a href="M_CefSharp_Callback_IDevToolsMessageObserver_OnDevToolsMessage.htm">OnDevToolsMessage(IBrowser, Stream)</a>  documentation for details
+             of received message contents.
+            
+             Usage of the SendDevToolsMessage, ExecuteDevToolsMethod and
+             AddDevToolsMessageObserver methods does not require an active DevTools
+             front-end or remote-debugging session. Other active DevTools sessions will
+             continue to function independently. However, any modification of global
+             browser state by one session may not be reflected in the UI of other
+             sessions.
+            
+             Communication with the DevTools front-end (when displayed) can be logged
+             for development purposes by passing the
+             `--devtools-protocol-log-file=&lt;path&gt;` command-line flag.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendExternalBeginFrame.htm">SendExternalBeginFrame</a></td><td><div class="summary">
+            Issue a BeginFrame request to Chromium.
+            Only valid when <a href="P_CefSharp_IWindowInfo_ExternalBeginFrameEnabled.htm">ExternalBeginFrameEnabled</a> is set to true.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendFocusEvent.htm">SendFocusEvent</a></td><td><div class="summary">
+            Send a focus event to the browser. . (Used for OSR Rendering e.g. WPF or OffScreen)
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendKeyEvent.htm">SendKeyEvent(KeyEvent)</a></td><td><div class="summary">
+             Send a key event to the browser.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendKeyEvent_1.htm">SendKeyEvent(Int32, Int32, Int32)</a></td><td><div class="summary">
+            Send key event to browser based on operating system message
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendMouseClickEvent.htm">SendMouseClickEvent</a></td><td><div class="summary">
+            Send a mouse click event to the browser.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendMouseMoveEvent.htm">SendMouseMoveEvent</a></td><td><div class="summary">
+            Send a mouse move event to the browser, coordinates, 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendMouseWheelEvent.htm">SendMouseWheelEvent</a></td><td><div class="summary">
+            Send a mouse wheel event to the browser.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SendTouchEvent.htm">SendTouchEvent</a></td><td><div class="summary">
+            Send a touch event to the browser.
+            WPF and OffScreen browsers only
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SetAccessibilityState.htm">SetAccessibilityState</a></td><td><div class="summary">
+            Set accessibility state for all frames.  If accessibilityState is Default then accessibility will be disabled by default
+            and the state may be further controlled with the "force-renderer-accessibility" and "disable-renderer-accessibility"
+            command-line switches. If accessibilityState is STATE_ENABLED then accessibility will be enabled.
+            If accessibilityState is STATE_DISABLED then accessibility will be completely disabled. For windowed browsers
+            accessibility will be enabled in Complete mode (which corresponds to kAccessibilityModeComplete in Chromium).
+            In this mode all platform accessibility objects will be created and managed by Chromium's internal implementation.
+            The client needs only to detect the screen reader and call this method appropriately. For example, on Windows the
+            client can handle WM_GETOBJECT with OBJID_CLIENT to detect accessibility readers. For windowless browsers accessibility
+            will be enabled in TreeOnly mode (which corresponds to kAccessibilityModeWebContentsOnly in Chromium). In this mode
+            renderer accessibility is enabled, the full tree is computed, and events are passed to IAccessibiltyHandler,
+            but platform accessibility objects are not created. The client may implement platform accessibility objects using
+            IAccessibiltyHandler callbacks if desired. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SetAudioMuted.htm">SetAudioMuted</a></td><td><div class="summary">
+            Set whether the browser's audio is muted.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SetAutoResizeEnabled.htm">SetAutoResizeEnabled</a></td><td><div class="summary">
+            Enable notifications of auto resize via IDisplayHandler.OnAutoResize. Notifications are disabled by default.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SetFocus.htm">SetFocus</a></td><td><div class="summary">
+            Set whether the browser is focused. (Used for Normal Rendering e.g. WinForms)
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_SetZoomLevel.htm">SetZoomLevel</a></td><td><div class="summary">
+            Change the zoom level to the specified value. Specify 0.0 to reset the zoom level.
+            If called on the CEF UI thread the change will be applied immediately.
+            Otherwise, the change will be applied asynchronously on the UI thread. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_ShowDevTools.htm">ShowDevTools</a></td><td><div class="summary">
+            Open developer tools in its own window. If inspectElementAtX and/or inspectElementAtY  are specified then
+            the element at the specified (x,y) location will be inspected.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_StartDownload.htm">StartDownload</a></td><td><div class="summary">
+            Download the file at url using IDownloadHandler. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_StopFinding.htm">StopFinding</a></td><td><div class="summary">
+            Cancel all searches that are currently going on. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_TryCloseBrowser.htm">TryCloseBrowser</a></td><td><div class="summary">
+            Helper for closing a browser. Call this method from the top-level window close handler. Internally this calls CloseBrowser(false) if the close has not yet been initiated. This method returns false while the close is pending and true after the close has completed.
+            See <a href="M_CefSharp_IBrowserHost_CloseBrowser.htm">CloseBrowser(Boolean)</a> and <a href="M_CefSharp_ILifeSpanHandler_DoClose.htm">DoClose(IWebBrowser, IBrowser)</a> documentation for additional usage information. This method must be called on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_WasHidden.htm">WasHidden</a></td><td><div class="summary">
+            Notify the browser that it has been hidden or shown.
+            Layouting and rendering notification will stop when the browser is hidden.
+            This method is only used when window rendering is disabled (WPF/OffScreen). 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IBrowserHost_WasResized.htm">WasResized</a></td><td><div class="summary">
+            Notify the browser that the widget has been resized.
+            The browser will first call CefRenderHandler::GetViewRect to get the new size and then call CefRenderHandler::OnPaint asynchronously with the updated regions.
+            This method is only used when window rendering is disabled. 
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_DevToolsExtensions_ExecuteDevToolsMethod.htm">ExecuteDevToolsMethod</a></td><td><div class="summary">
+            Execute a method call over the DevTools protocol. This is a more structured
+            version of SendDevToolsMessage.
+            See the DevTools protocol documentation at https://chromedevtools.github.io/devtools-protocol/ for details
+            of supported methods and the expected <span class="parameter">parameters</span> JSON message format.
+            See the SendDevToolsMessage documentation for additional usage information.
+            </div> (Defined by <a href="T_CefSharp_DevToolsExtensions.htm">DevToolsExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_AsyncExtensions_GetNavigationEntriesAsync.htm">GetNavigationEntriesAsync</a></td><td><div class="summary">
+            Retrieve a snapshot of current navigation entries
+            </div> (Defined by <a href="T_CefSharp_AsyncExtensions.htm">AsyncExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_WebBrowserExtensions_SendMouseClickEvent.htm">SendMouseClickEvent</a></td><td><div class="summary">
+            Send a mouse click event to the browser.
+            </div> (Defined by <a href="T_CefSharp_WebBrowserExtensions.htm">WebBrowserExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_WebBrowserExtensions_SendMouseMoveEvent.htm">SendMouseMoveEvent</a></td><td><div class="summary">
+            Send a mouse move event to the browser.
+            </div> (Defined by <a href="T_CefSharp_WebBrowserExtensions.htm">WebBrowserExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_WebBrowserExtensions_SendMouseWheelEvent_1.htm">SendMouseWheelEvent</a></td><td><div class="summary">
+            Send a mouse wheel event to the browser.
+            </div> (Defined by <a href="T_CefSharp_WebBrowserExtensions.htm">WebBrowserExtensions</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID5RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_CefSharp.htm">CefSharp Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p><a href="https://raw.githubusercontent.com/cefsharp/CefSharp/master/LICENSE" target="_blank">https://raw.githubusercontent.com/cefsharp/CefSharp/master/LICENSE</a></p> </div></body></html>
