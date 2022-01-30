@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>JavaScript Popup Test</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var targetWindow = window.open('', '_blank');
+
+            if (targetWindow == null)
+            {
+                document.getElementsByTagName('body')[0].style['background'] = 'red';
+                alert('window.open returned null!');
+            }
+            else
+            {
+                document.getElementsByTagName('body')[0].style['background'] = 'green';
+                targetWindow.location.href = 'https://www.duckduckgo.com';
+                setTimeout(() => targetWindow.close(), 10000);
+            }
+        </script>
+    </body>
+</html>
