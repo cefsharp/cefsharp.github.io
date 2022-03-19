@@ -20,7 +20,7 @@
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-    <title>CefSharp - Fast web browser for WinForms and WPF Apps</title>
+    <title>CefSharp - Open Source web browser for WinForms and WPF Apps</title>
   </head>
 
   <body>
@@ -96,7 +96,7 @@
     <div class="featlist-text">
         <div class="featlist-title">HTML5, JavaScript and PDF supported</div>
         <div class="featlist-desc">
-            CefSharp embraces modern web standards, and supports HTML5, JavaScript, CSS3 and HTML5 audio/video elements. 3D content is supported via WebGL which uses OpenGL/DirectX for hardware accelerated rendering. CefSharp includes <a href="https://github.com/cefsharp/CefSharp/wiki/Output-files-description-table-(Redistribution)">embedded modules</a> for PDF, web page printing and the WebKit Inspector (developer tools). CefSharp has no external dependencies, and the full build of CefSharp only adds ~80 MB to your app. See the <a href="https://github.com/cefsharp/CefSharp/wiki/Output-files-description-table-(Redistribution)">Output files description table (Redistribution)</a> for details.
+            CefSharp embraces modern web standards, and supports HTML5, JavaScript, CSS3 and HTML5 audio/video elements. 3D content is supported via WebGL which uses OpenGL/DirectX for hardware accelerated rendering. CefSharp includes <a href="https://github.com/cefsharp/CefSharp/wiki/Output-files-description-table-(Redistribution)">embedded modules</a> for PDF, web page printing and the WebKit Inspector (developer tools). CefSharp has no external dependencies, and the full build of CefSharp only adds ~120 MB to your app. See the <a href="https://github.com/cefsharp/CefSharp/wiki/Output-files-description-table-(Redistribution)">Output files description table (Redistribution)</a> for details.
         </div>
         <div class="featlist-code">
         </div>
@@ -115,9 +115,15 @@
 				</li>
 				<li>
 					You can programmatically call DevTools methods
-				</>
+				</li>
+				<li>
+					DOM access via <a href="https://github.com/cefsharp/Puppeteer">CefSharp Puppeteer</a> a port of Puppeteer Sharp specifically for use with CefSharp, direct communication with the browser (no remote debugging port).
+				</li>
 				<li>
 					You can use CefSharp to display embedded UI built with HTML5, or to display remote web content and web applications.
+				</li>
+				<li>
+					You can integrate ASP.Net Core directly via <a href="https://github.com/amaitland/Chromium.AspNetCore.Bridge">Chromium.AspNetCore.Bridge</a> to embed your .Net Website directly into CefSharp (no network connection required).
 				</li>
 			</ul>
 			See the <a href="https://github.com/cefsharp/CefSharp.MinimalExample">CefSharp.MinimalExample</a> project for ready-to-compile minimal example apps built with CefSharp.
@@ -147,7 +153,7 @@
     <div class="featlist-text">
         <div class="featlist-title">Free and Open Source</div>
         <div class="featlist-desc">
-            CefSharp is a .NET wrapper around the fantastic <a href="https://bitbucket.org/chromiumembedded/cef">Chromium Embedded Framework</a> project. And we provide <a href="https://github.com/cefsharp/CefSharp">full source code</a> in C# and C++/CLI. You can use the code to hack, improve, fork or simply debug your applications better. CefSharp is <a href="https://opensource.org/licenses/BSD-3-Clause">BSD licensed</a>, which means that it can be used for proprietary and free/open source applications. If CefSharp helped you, consider making a <a href="https://www.magpcss.org/ceforum/donate.php">donation to the CEF project</a>.
+            CefSharp is an open source .NET wrapper around the fantastic <a href="https://bitbucket.org/chromiumembedded/cef">Chromium Embedded Framework</a>. And we provide <a href="https://github.com/cefsharp/CefSharp">full source code</a> in C# and C++/CLI. You can use the code to hack, improve, fork or simply debug your applications better. CefSharp is <a href="https://opensource.org/licenses/BSD-3-Clause">BSD licensed</a>, which means that it can be used for proprietary and free/open source applications. If you are using CefSharp in a commercial application please consider sponsoring the maintainer via <a href="https://github.com/sponsors/amaitland">GitHub Sponsors</a>.
         </div>
         <div class="featlist-code">
         </div>
@@ -168,12 +174,12 @@
 				
 			    <li><a href="https://www.nuget.org/packages/CefSharp.OffScreen/">CefSharp.OffScreen</a> provides a "headless" browser control for automation projects</li>
  			    <li>CefSharp supports rendering of embedded HTML content for HTML-based UI</li>
-			    <li>CefSharp supports both x86 and x64 operating systems</li>
+			    <li>CefSharp supports x86, x64 and ARM64 platforms (Windows Only)</li>
 			</ul>
             CefSharp has a few <b>dependencies</b>:
 			<ul>
 			    <li>Microsoft .NET 4.5.2 or greater</li>
-			    <li><a href="https://support.microsoft.com/en-au/help/2977003/the-latest-supported-visual-c-downloads">Visual C++ Runtime 2015</a> or greater. (VC++ 2017 and VC++ 2019 are backwards compatible)</li>
+			    <li><a href="https://support.microsoft.com/en-au/help/2977003/the-latest-supported-visual-c-downloads">Visual C++ Runtime 2019</a> or greater. (Visual C++ 2022 Runtime is backwards compatible)</li>
 			    <li>NuGet packages are available for <a href="https://www.nuget.org/packages/CefSharp.WinForms/">WinForms</a>, <a href="https://www.nuget.org/packages/CefSharp.WPF/" >WPF</a> and <a href="https://www.nuget.org/packages/CefSharp.OffScreen/">OffScreen</a>.</li>
 			</ul>
         </div>
