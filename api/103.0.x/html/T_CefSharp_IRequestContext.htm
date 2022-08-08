@@ -1,0 +1,169 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>IRequestContext Interface</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="IRequestContext interface" /><meta name="System.Keywords" content="CefSharp.IRequestContext interface" /><meta name="Microsoft.Help.F1" content="CefSharp.IRequestContext" /><meta name="Microsoft.Help.Id" content="T:CefSharp.IRequestContext" /><meta name="Description" content="A request context provides request handling for a set of related browser or URL request objects. A request context can be specified when creating a new browser by setting the property (Passing in via the constructor for the OffScreen control is preferred)." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="CefSharp" /><meta name="file" content="T_CefSharp_IRequestContext" /><meta name="guid" content="T_CefSharp_IRequestContext" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-3.5.1.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">CefSharp API Doc<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/R_Project_Documentation.htm" title="CefSharp API Doc" tocid="roottoc">CefSharp API Doc</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/R_Project_Documentation.htm" title="Namespaces" tocid="R_Project_Documentation">Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/N_CefSharp.htm" title="CefSharp" tocid="N_CefSharp">CefSharp</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/T_CefSharp_IRequestContext.htm" title="IRequestContext Interface" tocid="T_CefSharp_IRequestContext">IRequestContext Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Properties_T_CefSharp_IRequestContext.htm" title="IRequestContext Properties" tocid="Properties_T_CefSharp_IRequestContext">IRequestContext Properties</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Methods_T_CefSharp_IRequestContext.htm" title="IRequestContext Methods" tocid="Methods_T_CefSharp_IRequestContext">IRequestContext Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>IRequestContext Interface</h1></td></tr></table><span class="introStyle">Version 103.0.120</span> <div class="summary">
+            A request context provides request handling for a set of related browser or URL request objects.
+            A request context can be specified when creating a new browser by setting the 
+            <a href="P_CefSharp_IWebBrowser_RequestContext.htm">RequestContext</a> property (Passing in via the constructor for the OffScreen
+            control is preferred).
+            Browser objects with different request contexts will never be hosted in the same render process.
+            Browser objects with the same request context may or may not be hosted in the same render process
+            depending on the process model.Browser objects created indirectly via the JavaScript window.open
+            function or targeted links will share the same render process and the same request context as
+            the source browser.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_CefSharp.htm">CefSharp</a><br />
+    <strong>Assembly:</strong>
+   CefSharp (in CefSharp.dll) Version: 103.0.120.0 (103.0.120.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cpp','2','2');return false;">C++</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="identifier">IRequestContext</span> : <span class="identifier">IDisposable</span></pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">interface class</span> <span class="identifier">IRequestContext</span> : <span class="identifier">IDisposable</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script></div><p>The <span class="selflink">IRequestContext</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID2RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IRequestContext_CachePath.htm">CachePath</a></td><td><div class="summary">
+            Returns the cache path for this object. If empty an "incognito mode"
+            in-memory cache is being used.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IRequestContext_IsDisposed.htm">IsDisposed</a></td><td><div class="summary">
+            Gets a value indicating whether the RequestContext has been disposed of.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_CefSharp_IRequestContext_IsGlobal.htm">IsGlobal</a></td><td><div class="summary">
+            Returns true if this object is the global context. The global context is
+            used by default when creating a browser or URL request with a NULL context
+            argument.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_CanSetPreference.htm">CanSetPreference</a></td><td><div class="summary">
+            Returns true if the preference with the specified name can be modified
+            using SetPreference. As one example preferences set via the command-line
+            usually cannot be modified. This method must be called on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_ClearCertificateExceptions.htm">ClearCertificateExceptions</a></td><td><div class="summary">
+            Clears all certificate exceptions that were added as part of handling
+            <a href="M_CefSharp_IRequestHandler_OnCertificateError.htm">OnCertificateError(IWebBrowser, IBrowser, CefErrorCode, String, ISslInfo, IRequestCallback)</a>. If you call this it is
+            recommended that you also call <a href="M_CefSharp_IRequestContext_CloseAllConnections.htm">CloseAllConnections(ICompletionCallback)</a> or you risk not
+            being prompted again for server certificates if you reconnect quickly.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_ClearHttpAuthCredentials.htm">ClearHttpAuthCredentials</a></td><td><div class="summary">
+            Clears all HTTP authentication credentials that were added as part of handling
+            <a href="M_CefSharp_IRequestHandler_GetAuthCredentials.htm">GetAuthCredentials(IWebBrowser, IBrowser, String, Boolean, String, Int32, String, String, IAuthCallback)</a>.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_ClearSchemeHandlerFactories.htm">ClearSchemeHandlerFactories</a></td><td><div class="summary">
+            Clear all registered scheme handler factories. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_CloseAllConnections.htm">CloseAllConnections</a></td><td><div class="summary">
+            Clears all active and idle connections that Chromium currently has.
+            This is only recommended if you have released all other CEF objects but
+            don't yet want to call Cef.Shutdown().
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_DidLoadExtension.htm">DidLoadExtension</a></td><td><div class="summary">
+            Returns true if this context was used to load the extension identified by extensionId. Other contexts sharing the same storage will also have access to the extension (see HasExtension).
+            This method must be called on the CEF UI thread.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.idisposable.dispose#System_IDisposable_Dispose" target="_blank" rel="noopener noreferrer">Dispose</a></td><td><div class="summary">Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.idisposable" target="_blank" rel="noopener noreferrer">IDisposable</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_GetAllPreferences.htm">GetAllPreferences</a></td><td><div class="summary">
+            Returns all preferences as a dictionary. The returned
+            object contains a copy of the underlying preference values and
+            modifications to the returned object will not modify the underlying
+            preference values. This method must be called on the browser process UI
+            thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_GetCookieManager.htm">GetCookieManager</a></td><td><div class="summary">
+            Returns the default cookie manager for this object. This will be the global
+            cookie manager if this object is the global request context. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_GetExtension.htm">GetExtension</a></td><td><div class="summary">
+            Returns the extension matching extensionId or null if no matching extension is accessible in this context (see HasExtension).
+            This method must be called on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_GetExtensions.htm">GetExtensions</a></td><td><div class="summary">
+            Retrieve the list of all extensions that this context has access to (see HasExtension).
+            <span class="parameter">extensionIds</span> will be populated with the list of extension ID values.
+            This method must be called on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_GetPreference.htm">GetPreference</a></td><td><div class="summary">
+            Returns the value for the preference with the specified name. Returns
+            NULL if the preference does not exist. The returned object contains a copy
+            of the underlying preference value and modifications to the returned object
+            will not modify the underlying preference value. This method must be called
+            on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_HasExtension.htm">HasExtension</a></td><td><div class="summary">
+            Returns true if this context has access to the extension identified by extensionId.
+            This may not be the context that was used to load the extension (see DidLoadExtension).
+            This method must be called on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_HasPreference.htm">HasPreference</a></td><td><div class="summary">
+            Returns true if a preference with the specified name exists. This method
+            must be called on the CEF UI thread.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_IsSame.htm">IsSame</a></td><td><div class="summary">
+            Returns true if this object is pointing to the same context object.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_IsSharingWith.htm">IsSharingWith</a></td><td><div class="summary">
+            Returns true if this object is sharing the same storage as the specified context.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_LoadExtension.htm">LoadExtension</a></td><td><div class="summary">
+             Load an extension. If extension resources will be read from disk using the default load implementation then rootDirectoy
+             should be the absolute path to the extension resources directory and manifestJson should be null.
+             If extension resources will be provided by the client (e.g. via IRequestHandler and/or IExtensionHandler) then rootDirectory
+             should be a path component unique to the extension (if not absolute this will be internally prefixed with the PK_DIR_RESOURCES path)
+             and manifestJson should contain the contents that would otherwise be read from the "manifest.json" file on disk.
+             The loaded extension will be accessible in all contexts sharing the same storage (HasExtension returns true).
+             However, only the context on which this method was called is considered the loader (DidLoadExtension returns true) and only the
+             loader will receive IRequestContextHandler callbacks for the extension.
+            
+             <a href="M_CefSharp_IExtensionHandler_OnExtensionLoaded.htm">OnExtensionLoaded(IExtension)</a> will be called on load success or
+             <a href="M_CefSharp_IExtensionHandler_OnExtensionLoadFailed.htm">OnExtensionLoadFailed(CefErrorCode)</a> will be called on load failure.
+             
+             If the extension specifies a background script via the "background" manifest key then <a href="M_CefSharp_IExtensionHandler_OnBeforeBackgroundBrowser.htm">OnBeforeBackgroundBrowser(IExtension, String, IBrowserSettings)</a>
+             will be called to create the background browser. See that method for additional information about background scripts.
+             
+             For visible extension views the client application should evaluate the manifest to determine the correct extension URL to load and then
+             load the extension URL in a ChromiumWebBrowser instance after the extension has loaded.
+            
+             For example, the client can look for the "browser_action" manifest key as documented at https://developer.chrome.com/extensions/browserAction.
+             Extension URLs take the form "chrome-extension://&lt;extension_id&gt;/&lt;path&gt;"
+             Browsers that host extensions differ from normal browsers as follows:
+             
+             - Can access chrome.* JavaScript APIs if allowed by the manifest. Visit chrome://extensions-support for the list of extension APIs currently supported by CEF.
+             - Main frame navigation to non-extension content is blocked.
+             - Pinch-zooming is disabled.
+             - <a href="P_CefSharp_IBrowserHost_Extension.htm">Extension</a> returns the hosted extension.
+             - CefBrowserHost::IsBackgroundHost returns true for background hosts.
+            
+             See https://developer.chrome.com/extensions for extension implementation and usage documentation.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_RegisterSchemeHandlerFactory.htm">RegisterSchemeHandlerFactory</a></td><td><div class="summary">
+            Register a scheme handler factory for the specified schemeName and optional domainName.
+            An empty domainName value for a standard scheme will cause the factory to match all domain
+            names. The domainName value will be ignored for non-standard schemes. If schemeName is
+            a built-in scheme and no handler is returned by factory then the built-in scheme handler
+            factory will be called. If schemeName is a custom scheme then you must also implement the
+            CefApp::OnRegisterCustomSchemes() method in all processes. This function may be called multiple
+            times to change or remove the factory that matches the specified schemeName and optional
+            domainName.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_ResolveHostAsync.htm">ResolveHostAsync</a></td><td><div class="summary">
+            Attempts to resolve origin to a list of associated IP addresses.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_SetPreference.htm">SetPreference</a></td><td><div class="summary">
+            Set the value associated with preference name. If value is null the
+            preference will be restored to its default value. If setting the preference
+            fails then error will be populated with a detailed description of the
+            problem. This method must be called on the CEF UI thread.
+            Preferences set via the command-line usually cannot be modified.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_CefSharp_IRequestContext_UnWrap.htm">UnWrap</a></td><td><div class="summary">
+            Used internally to get the underlying <span class="selflink">IRequestContext</span> instance.
+            Unlikely you'll use this yourself.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Extension Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="extensionMethodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_ClearHttpAuthCredentialsAsync.htm">ClearHttpAuthCredentialsAsync</a></td><td><div class="summary">
+            Clears all HTTP authentication credentials that were added as part of handling
+            <a href="M_CefSharp_IRequestHandler_GetAuthCredentials.htm">GetAuthCredentials(IWebBrowser, IBrowser, String, Boolean, String, Int32, String, String, IAuthCallback)</a>.
+            </div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_GetCookieManagerAsync.htm">GetCookieManagerAsync</a></td><td><div class="summary">
+            Gets the cookie manager associated with the <span class="selflink">IRequestContext</span>. Once the cookie manager
+            storage has been initialized the method will return.
+            </div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_LoadExtensionFromDirectory.htm">LoadExtensionFromDirectory</a></td><td><div class="summary">
+            Load an extension from the given directory. To load a crx file you must unzip it first.
+            For further details see </div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_LoadExtensionsFromDirectory.htm">LoadExtensionsFromDirectory</a></td><td><div class="summary">
+            Load extension(s) from the given directory. This methods obtains all the sub directories of <span class="parameter">rootDirectory</span>
+            and calls <a href="M_CefSharp_IRequestContext_LoadExtension.htm">LoadExtension(String, String, IExtensionHandler)</a> if manifest.json
+            is found in the sub folder. To load crx file(s) you must unzip them first.
+            For further details see </div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_RegisterOwinSchemeHandlerFactory.htm">RegisterOwinSchemeHandlerFactory</a></td><td><div class="summary">
+            Extension method to register a instance of the <a href="T_CefSharp_SchemeHandler_OwinSchemeHandlerFactory.htm">OwinSchemeHandlerFactory</a> with the provided <span class="parameter">appFunc</span>
+            for the <span class="parameter">domainName</span></div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_SetPreferenceAsync.htm">SetPreferenceAsync</a></td><td><div class="summary">
+            Set the value associated with preference name. If value is null the
+            preference will be restored to its default value. If setting the preference
+            fails then error will be populated with a detailed description of the
+            problem. This method must be called on the CEF UI thread.
+            Preferences set via the command-line usually cannot be modified.
+            </div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_SetProxy_2.htm">SetProxy(String, String<span id="LST39257624_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_0?cpp=%");</script>)</a></td><td>Overloaded.  <div class="summary">
+            Sets the proxy server for the specified <span class="selflink">IRequestContext</span>.
+            Protocol for the proxy server is http
+            MUST be called on the CEF UI Thread
+            </div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_SetProxy.htm">SetProxy(String, Nullable<span id="LST39257624_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Int32<span id="LST39257624_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, String<span id="LST39257624_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_3?cpp=%");</script>)</a></td><td>Overloaded.  <div class="summary">
+            Sets the proxy server for the specified <span class="selflink">IRequestContext</span>.
+            Protocol for the proxy server is http
+            MUST be called on the CEF UI Thread
+            </div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_SetProxy_1.htm">SetProxy(String, String, Nullable<span id="LST39257624_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Int32<span id="LST39257624_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_5?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, String<span id="LST39257624_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_6?cpp=%");</script>)</a></td><td>Overloaded.  <div class="summary">
+            Sets the proxy server for the specified <span class="selflink">IRequestContext</span>
+            MUST be called on the CEF UI Thread
+            </div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_SetProxyAsync.htm">SetProxyAsync(String, Nullable<span id="LST39257624_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_7?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Int32<span id="LST39257624_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_8?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td>Overloaded.  <div class="summary">
+            Sets the proxy server for the specified <span class="selflink">IRequestContext</span>.
+            Protocol for the proxy server is http
+            </div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubextension.gif" alt="Public Extension Method" title="Public Extension Method" /></td><td><a href="M_CefSharp_RequestContextExtensions_SetProxyAsync_1.htm">SetProxyAsync(String, String, Nullable<span id="LST39257624_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_9?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Int32<span id="LST39257624_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST39257624_10?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td>Overloaded.  <div class="summary">
+            Sets the proxy server for the specified <span class="selflink">IRequestContext</span></div> (Defined by <a href="T_CefSharp_RequestContextExtensions.htm">RequestContextExtensions</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID5RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_CefSharp.htm">CefSharp Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p><a href="https://raw.githubusercontent.com/cefsharp/CefSharp/master/LICENSE" target="_blank" rel="noopener noreferrer">https://raw.githubusercontent.com/cefsharp/CefSharp/master/LICENSE</a></p> </div></body></html>
