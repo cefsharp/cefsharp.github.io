@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onkeyup="keyup(event)">
+
+    <p>Demo Isssue 4692</p>
+
+    <p>Body has a keyup listener - it outputs the event on any key pressed on the keyboard. Opening file explorer via file input and canceling it (or picking a file) prevent event listener from being executed until manually clicked inside web control</p>
+
+    <p>Issue exist since version: <strong>v102.0.100</strong></p>
+
+    <p>Issue does not exist in version <strong>79.1.360</strong>, <strong>98.1.210</strong>, <strong>101.0.180</strong>.</p>
+
+    <input type="file" />
+	
+	<br/>
+	
+	<br/>
+	
+	<textarea id="keyboardOutput" rows="5" cols="100" placeholder="Keyboard Output"></textarea>
+
+    <script>
+        function keyup(event) {
+            console.log(event);
+			document.getElementById("keyboardOutput").value += event.key;
+        }
+    </script>
+</body>
+</html>
